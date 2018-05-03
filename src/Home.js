@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import About from './components/About';
-import Nav from './components/Navigation/Nav';
-import FanMail from './components/FanMail/FanMail';
+import About from './Components/About/About';
+import Nav from './Components/Navigation/Nav';
+import FanMail from './Components/FanMail/FanMail';
+import Comic from './Components/Comic/Comic';
 import {
   BrowserRouter as Router,
   Route
@@ -15,6 +16,7 @@ class Home extends Component {
             <Nav />
             <Route path="/about" component={About}/>
             <Route path="/fanmail" component={FanMail}/>
+            <Route path="/comic" component={Comic}/>
         </div>
       </Router>
     );

@@ -22,8 +22,8 @@ import NavDropdown from './NavDropDown';
 class Nav extends Component {
     render() {
       return (
-            <div className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="/">Navbar</a>
+            <div className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <Link className="navbar-brand" to="/">Navbar</Link>
                 <button className="navbar-toggler" 
                     type="button" data-toggle="collapse" 
                     data-target="#navbarSupportedContent" 
