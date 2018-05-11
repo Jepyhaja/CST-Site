@@ -45,12 +45,12 @@ class Nav extends Component {
                         </NavDropdown>
                         <NavDropdown name="Hahmot">
                             <Link className="dropdown-item" to="/protagonists">Päähenkilöt</Link>
-                            <Link className="dropdown-item" to="/personsOfInterest">Keskeiset hahmot</Link>
+                            <Link className="dropdown-item" to="/personsofinterest">Keskeiset hahmot</Link>
                         </NavDropdown>
                         <NavItem name="Faniposti" path="/fanmail"/>
                         <NavDropdown name="CST">
                             <Link className="dropdown-item" to="/about">Mikä on CST?</Link>
-                            <Link className="dropdown-item" to="/personsOfInterest">Keitä olemme?</Link>
+                            <Link className="dropdown-item" to="/personsofinterest">Keitä olemme?</Link>
                         </NavDropdown>
                         <NavItem name="Medialle" path="/media" disabled="true" />
                     </ul>
