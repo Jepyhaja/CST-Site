@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {
-    Link
+    Link,
+    NavLink
   } from 'react-router-dom';
 import NavDropdown from './NavDropDown';
 
@@ -36,8 +37,8 @@ class Nav extends Component {
             
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <NavItem name="Etusivu" path="/"/>
-                        <NavItem name="Sarjakuva" path="/comic"/>
+                        <NavLink exact to="/" className="nav-link" >Etusivu</NavLink>
+                        <NavLink to="/comic" className="nav-link" >Sarjakuva</NavLink>
                         <NavDropdown name="Maailma">
                             <Link className="dropdown-item" to="/globinet">Globinet</Link>
                             <Link className="dropdown-item" to="/society">Yhteiskunta</Link>

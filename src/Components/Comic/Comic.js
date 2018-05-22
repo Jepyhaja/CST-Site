@@ -19,6 +19,9 @@ const Book = props => {
 }
 class Comic extends Component {
     render() {
+      const pageURI = window.location.pathname+window.location.search;
+      const checker = pageURI.split("/");
+      if(checker[2] !== 'page'){
         return(
           <div className="conatainer-fluid">
             <div className="row">
@@ -26,8 +29,8 @@ class Comic extends Component {
               <div className="col-lg-8">
                 <h4 className="text-center">Sharp as knives</h4>
                 <ul className="list-inline">
-                  <Book name="Part I-IV" path="/comic/SaK-bookI" img="/Images/Comic/Book_1/1.1/1.png" alt="Book I"/>
-                  <Book name="Part V-VIII" path="/comic/SaK-bookII" img="/Images/Comic/Book_1/1.1/1.png" alt="Book I"/>
+                  <Book name="Part I-IV" path="/comic/sakI" img="/Images/Comic/Book_1/1.1/1.png" alt="Book I"/>
+                  <Book name="Part V-VIII" path="/comic/sakII" img="/Images/Comic/Book_1/1.1/1.png" alt="Book I"/>
                 </ul>
               </div>
               <div className="col"></div>
@@ -35,14 +38,38 @@ class Comic extends Component {
             <div className="row mt-5">
               <div className="col"></div>
               <div className="col-lg-8">
-              <h5>mappaa eri kirjat tähän JSON filusta</h5>
-                <Route path="/comic/SaK-bookI" component={BookChapters}/>
-                <Route path="/comic/SaK-bookII" component={BookChapters}/>
+                <Route path="/comic/sakI"  
+                  render={(props) => <BookChapters 
+                      myProp="1-4" 
+                      pages={[
+                        '1',
+                        '20',
+                        '54',
+                        '101']} 
+                      {...props}/>
+                    }
+                  />
+                <Route path="/comic/sakII" render={(props) => <BookChapters 
+                      myProp="5-8" 
+                      pages={[
+                        '140',
+                        '190',
+                        '234',
+                        '261']}
+                       
+                      {...props}/>
+                  }/>
               </div>
               <div className="col"></div>
             </div>
-        </div>  
-      );
+          </div>  
+        );
+      }
+      if(checker[2] == 'page'){
+        return(
+          <h2>YAAS</h2>
+        );
+      }
     }
   }
   
