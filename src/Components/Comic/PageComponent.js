@@ -1,16 +1,14 @@
 import React, {Component} from 'react';
-class Page extends Component {
+class PageComponent extends Component {
 
     render() {
         const path = this.props.match.path.split('/');
         const source = '/Images/Comic/'+path[2]+'/'+path[4]+'.png'
         console.log(source);
         return (
-            <div>
-                <img className="img-fluid" src={source} alt={'page:'+ path[4]}/>
-            </div>
+                    <img className="img-fluid" src={source} alt={'page:'+ path[4]}/>
         );
     }
 }
 
-export default Page;
+export default PageComponent;
