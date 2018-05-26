@@ -6,7 +6,7 @@ import {
 import NavDropdown from './NavDropDown';
 
   const NavItem = props => {
-    const pageURI = window.location.pathname+window.location.search
+    const pageURI = window.location.hash+window.location.search
     const liClassName = (props.path === pageURI) ? "nav-item active" : "nav-item";
     const path = props.disabled ? pageURI : props.path
     const aClassName = props.disabled ? "nav-link disabled" : "nav-link";
@@ -48,7 +48,7 @@ class Nav extends Component {
                             <Link className="dropdown-item" to="/protagonists">Päähenkilöt</Link>
                             <Link className="dropdown-item" to="/personsofinterest">Keskeiset hahmot</Link>
                         </NavDropdown>
-                        <NavItem name="Faniposti" path="/fanmail"/>
+                        <NavLink to="/fanmail" className="nav-link">Faniposti</NavLink>
                         <NavDropdown name="CST">
                             <Link className="dropdown-item" to="/about">Mikä on CST?</Link>
                             <Link className="dropdown-item" to="/personsofinterest">Keitä olemme?</Link>

@@ -5,8 +5,9 @@ import FanMail from './Components/FanMail/FanMail';
 import Comic from './Components/Comic/Comic';
 import NotFound from './Components/Error/NotFound';
 import {
-  BrowserRouter as Router,
-  Route
+  HashRouter as Router,
+  Route,
+  Switch
 } from 'react-router-dom';
 
 class Home extends Component {
@@ -15,10 +16,12 @@ class Home extends Component {
       <Router>
         <div>
             <Nav />
+          <Switch>
             <Route path="/about" component={About}/>
             <Route path="/fanmail" component={FanMail}/>
             <Route path="/comic" component={Comic}/>
-            <Route path={"/error"} component={NotFound}/>
+            <Route component={NotFound}/>
+            </Switch>
         </div>
       </Router>
     );

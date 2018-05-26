@@ -21,7 +21,7 @@ const Book = props => {
 
 class Comic extends Component {
     render() {
-      const pageURI = window.location.pathname+window.location.search;
+      const pageURI = window.location.hash+window.location.search;
       const checker = pageURI.split("/");
       console.log(checker);
       if(checker[3] !== 'page'){
