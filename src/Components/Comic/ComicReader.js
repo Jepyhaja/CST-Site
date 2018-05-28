@@ -20,18 +20,31 @@ const previousUrl = (jump) => {
 const currentUrl = () => {
     const page = parseInt(searchUrl().page,0);
     const book = searchUrl().book.toString();
-    const src = '/comic/'+book+'/page/'+page;
-    const component = PageComponent;
-    return {src,component}
-    
+    const path = '/comic/'+book+'/page/'+page;
+    const source = '/Images/Comic/'+book+'/'+page+'.png';
+    return {path,source}
 }
+
 class ComicReader extends Component {
     state = {
-        loading: false,
+        loading: true
+    }
+    openLoadingScreen = () =>{
+        this.setState({
+            loading: true
+        });
+        console.log(this.state.loading,'open');
+    }
+    closeLoadingScreen = () =>{
+        this.setState({
+            loading: false
+        });
+        console.log(this.state.loading,'close');
     }
     render() {
         const page = searchUrl().page;
         const book = searchUrl().book;
+
         if((book !== 'sak' && book !== 'somebok')||(page <= 0)||(page >= 76)){
             return (
                 <div className="container-fluid">
@@ -52,8 +65,13 @@ class ComicReader extends Component {
                     <div className="row">
                         <div className="col"></div>
                         <div className="col-4">
-                            <Route path={currentUrl().src} component={currentUrl().component}/>
-                            <Link to={nextUrl(1)}>Seuraava</Link>
+                            <Route path={currentUrl().path} 
+                                render={
+                                    (props) => <PageComponent 
+                                    source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
+                                    }
+                                />
+                            <Link to={nextUrl(1)} onClick={this.openLoadingScreen}>Seuraava</Link>
                         </div>
                         <div className="col"></div>
                     </div>
@@ -66,8 +84,13 @@ class ComicReader extends Component {
                     <div className="row">
                         <div className="col"></div>
                         <div className="col-4">
-                            <Route path={currentUrl().src} component={currentUrl().component}/>
-                            <Link to={previousUrl(1)}>Edellinen</Link>
+                        <Route path={currentUrl().path} 
+                                render={
+                                    (props) => <PageComponent 
+                                    source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
+                                    }
+                                />
+                            <Link to={previousUrl(1)} onClick={this.openLoadingScreen}>Edellinen</Link>
                         </div>
                         <div className="col"></div>
                     </div>
@@ -79,9 +102,14 @@ class ComicReader extends Component {
                 <div className="row">
                     <div className="col"></div>
                     <div className="col-4">
-                        <Route path={currentUrl().src} component={currentUrl().component}/>
-                        <Link to={previousUrl(1)}>Edellinen</Link>
-                        <Link to={nextUrl(1)}>Seuraava</Link>
+                            <Route path={currentUrl().path} 
+                                render={
+                                    (props) => <PageComponent 
+                                    source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
+                                    }
+                                />
+                        <Link to={previousUrl(1)} onClick={this.openLoadingScreen}>Edellinen</Link>
+                        <Link to={nextUrl(1)} onClick={this.openLoadingScreen}>Seuraava</Link>
                     </div>
                 <div className="col"></div>
             </div>

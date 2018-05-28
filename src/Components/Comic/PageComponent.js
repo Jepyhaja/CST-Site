@@ -1,12 +1,22 @@
 import React, {Component} from 'react';
 class PageComponent extends Component {
-
+    componentWillReceiveProps(){
+        this.forceUpdate();
+    }
     render() {
-        const path = this.props.match.path.split('/');
-        const source = '/Images/Comic/'+path[2]+'/'+path[4]+'.png'
-        console.log(source);
+        var status = '';
+        console.log(this.props.status,'status')
+        if(this.props.status === false){
+            status = 'card'
+        }else{
+            status = 'col-7'
+        }
+        //const path = this.props.match.path.split('/');
+        //const source = '/Images/Comic/'+path[2]+'/'+path[4]+'.png'
         return (
-                    <img className="img-fluid" src={source} alt={'page:'+ path[4]}/>
+            <div className={status}>
+                <img className="img-fluid" src={this.props.source} alt={'page:'} onLoad={this.props.loaded}/>
+            </div>
         );
     }
 }

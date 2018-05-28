@@ -45,7 +45,7 @@ class Comic extends Component {
                   render={(props) => <BookChapters 
                     book="sak"
                     chapters="1-4" 
-                    pages={['1','20','54','101']} 
+                    pages={['1','22','55','67','70']} 
                     {...props}/>
                   }
                 />

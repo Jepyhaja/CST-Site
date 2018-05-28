@@ -12,7 +12,7 @@ const Chapter = props => {
   return (
     <li className={liClassName}>
       <Link to={path} className="card">
-        <p className="text-center">{props.name}</p>
+        <img className="text-center img-fluid" src={'/Images/Comic/'+props.book+'/'+props.pages+'.png'} alt=""/>
       </Link>
     </li>
   );

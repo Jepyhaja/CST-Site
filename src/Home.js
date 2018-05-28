@@ -16,11 +16,11 @@ class Home extends Component {
       <Router>
         <div>
             <Nav />
-          <Switch>
-            <Route path="/about" component={About}/>
-            <Route path="/fanmail" component={FanMail}/>
-            <Route path="/comic" component={Comic}/>
-            <Route component={NotFound}/>
+            <Switch>
+              <Route path="/about" component={About}/>
+              <Route path="/fanmail" component={FanMail}/>
+              <Route path="/comic" component={Comic}/>
+              <Route component={NotFound}/>
             </Switch>
         </div>
       </Router>
