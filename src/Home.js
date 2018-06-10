@@ -14,7 +14,7 @@ class Home extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="text-center">
             <Nav />
             <Switch>
               <Route path="/about" component={About}/>

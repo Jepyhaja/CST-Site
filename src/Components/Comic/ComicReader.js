@@ -50,9 +50,9 @@ class ComicReader extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col"></div>
-                        <div className="col-4">
+                        <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 mt-5">
                             <h2>Sivua ei löydy</h2>
-                            <Link to={'/comic/sak/page/1'}>Siirry sarjakuvan sivulle 1</Link>
+                            <Link className="btn btn-secondary" to={'/comic/'}>Siirry sarjakuva valikkoon</Link>
                         </div>
                         <div className="col"></div>
                     </div>
@@ -64,14 +64,17 @@ class ComicReader extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col"></div>
-                        <div className="col-4">
+                        <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 mt-5">
+                            <Link className="btn btn-sm btn-secondary m-2 r-middle" to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-corner" to={nextUrl(3)} onClick={this.openLoadingScreen}>&gt;&gt;&gt;</Link>
                             <Route path={currentUrl().path} 
                                 render={
                                     (props) => <PageComponent 
                                     source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
                                     }
                                 />
-                            <Link to={nextUrl(1)} onClick={this.openLoadingScreen}>Seuraava</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-middle" to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-corner" to={nextUrl(3)} onClick={this.openLoadingScreen}>&gt;&gt;&gt;</Link>
                         </div>
                         <div className="col"></div>
                     </div>
@@ -83,14 +86,63 @@ class ComicReader extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col"></div>
-                        <div className="col-4">
-                        <Route path={currentUrl().path} 
+                        <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 mt-5">
+                            <Link className="btn btn-sm btn-secondary m-2 l-middle" to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 l-corner" to={previousUrl(3)} onClick={this.openLoadingScreen}>&lt;&lt;&lt;</Link>
+                            <Route path={currentUrl().path} 
                                 render={
                                     (props) => <PageComponent 
                                     source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
                                     }
                                 />
-                            <Link to={previousUrl(1)} onClick={this.openLoadingScreen}>Edellinen</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 l-middle" to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 l-corner" to={previousUrl(3)} onClick={this.openLoadingScreen}>&lt;&lt;&lt;</Link>
+                        </div>
+                        <div className="col"></div>
+                    </div>
+                </div>
+            );
+        }if(page < 4){
+            return (
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col"></div>
+                        <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 mt-5">
+                            <Link className="btn btn-sm btn-secondary m-2 l-middle" to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-middle" to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-corner" to={nextUrl(3)} onClick={this.openLoadingScreen}>&gt;&gt;&gt;</Link>
+                            <Route path={currentUrl().path} 
+                                render={
+                                    (props) => <PageComponent 
+                                    source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
+                                    }
+                                />
+                            <Link className="btn btn-sm btn-secondary m-2 l-middle" to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-middle" to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-corner" to={nextUrl(3)} onClick={this.openLoadingScreen}>&gt;&gt;&gt;</Link>
+                        </div>
+                        <div className="col"></div>
+                    </div>
+                </div>
+            );
+        }if(page > 72){
+            return (
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col"></div>
+                        <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 mt-5">
+                            <Link className="btn btn-sm btn-secondary m-2 l-corner" to={previousUrl(3)} onClick={this.openLoadingScreen}>&lt;&lt;&lt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 l-middle" to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-middle" to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
+                            <Route path={currentUrl().path} 
+                                render={
+                                    (props) => <PageComponent 
+                                    source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
+                                    }
+                                />
+                            <Link className="btn btn-sm btn-secondary m-2 l-corner" to={previousUrl(3)} onClick={this.openLoadingScreen}>&lt;&lt;&lt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 l-middle" to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
+                            <Link className="btn btn-sm btn-secondary m-2 r-middle" to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
                         </div>
                         <div className="col"></div>
                     </div>
@@ -101,15 +153,21 @@ class ComicReader extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col"></div>
-                    <div className="col-4">
+                    <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 mt-5">
+                        <Link className="btn btn-sm btn-secondary m-2 l-corner" to={previousUrl(3)} onClick={this.openLoadingScreen}>&lt;&lt;&lt;</Link>
+                        <Link className="btn btn-sm btn-secondary m-2 l-middle" to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
+                        <Link className="btn btn-sm btn-secondary m-2 r-middle" to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
+                        <Link className="btn btn-sm btn-secondary m-2 r-corner" to={nextUrl(3)} onClick={this.openLoadingScreen}>&gt;&gt;&gt;</Link>
                             <Route path={currentUrl().path} 
                                 render={
                                     (props) => <PageComponent 
                                     source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
                                     }
                                 />
-                        <Link to={previousUrl(1)} onClick={this.openLoadingScreen}>Edellinen</Link>
-                        <Link to={nextUrl(1)} onClick={this.openLoadingScreen}>Seuraava</Link>
+                        <Link className="btn btn-sm btn-secondary m-2 l-corner" to={previousUrl(3)} onClick={this.openLoadingScreen}>&lt;&lt;&lt;</Link>
+                        <Link className="btn btn-sm btn-secondary m-2 l-middle" to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
+                        <Link className="btn btn-sm btn-secondary m-2 r-middle" to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
+                        <Link className="btn btn-sm btn-secondary m-2 r-corner" to={nextUrl(3)} onClick={this.openLoadingScreen}>&gt;&gt;&gt;</Link>
                     </div>
                 <div className="col"></div>
             </div>
