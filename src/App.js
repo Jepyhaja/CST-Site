@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Home from './Components/Home/Home'
 import About from './Components/About/About';
 import Nav from './Components/Navigation/Nav';
 import FanMail from './Components/FanMail/FanMail';
@@ -9,14 +10,16 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
+import './app.css';
 
-class Home extends Component {
+class App extends Component {
   render() {
     return (
       <Router>
         <div className="text-center">
             <Nav />
             <Switch>
+              <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>
               <Route path="/fanmail" component={FanMail}/>
               <Route path="/comic" component={Comic}/>
@@ -28,4 +31,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default App;

@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import {
-    Link
+    NavLink
   } from 'react-router-dom';
 
 class NavDropdown extends Component {
     render() {
       return (
         <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-toggle="dropdown"
+          <NavLink className="nav-link dropdown-toggle" to={this.props.loc} id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             {this.props.name}
-          </Link>
+          </NavLink>
           <div className="dropdown-menu" aria-labelledby="navbarDropdown">
             {this.props.children}
           </div>

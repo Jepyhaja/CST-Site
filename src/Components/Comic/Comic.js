@@ -5,6 +5,7 @@ import {
  Link
 } from 'react-router-dom';
 import ComicReader from'./ComicReader';
+import './comic.css'
 const Book = props => {
   const pageURI = window.location.pathname+window.location.search
   const liClassName = (props.path === pageURI) ? "list-inline-item col-2" : "list-inline-item col-2";
@@ -26,11 +27,11 @@ class Comic extends Component {
       console.log(checker);
       if(checker[3] !== 'page'){
         return(
-          <div className="conatainer-fluid">
+          <div className="container-fluid pt-3">
             <div className="row">
               <div className="col"></div>
               <div className="col-lg-8">
-                <h4 className="text-center">Sharp as knives</h4>
+                <h1 className="text-center pb-2">Sharp as knives</h1>
                 <ul className="list-inline">
                   <Book name="Part I-IV" path="/comic/sakI" img="/Images/Comic/sak/1.png" alt="Book I"/>
                   <Book name="Part V-VIII" path="/comic/sakII" img="/Images/Comic/sak/22.png" alt="Book I"/>

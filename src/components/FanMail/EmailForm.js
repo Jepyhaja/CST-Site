@@ -34,7 +34,7 @@ class EmailForm extends Component {
             <br/>
             <div id="success"></div>
             <div className="form-group">
-            <button type="submit" className="butto" id="sendMessageButton">Send</button>
+            <button type="submit" className="btn btn-dark" id="sendMessageButton">Send</button>
             </div>
       </form>
       );

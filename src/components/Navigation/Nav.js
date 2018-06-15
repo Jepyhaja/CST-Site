@@ -4,6 +4,7 @@ import {
     NavLink
   } from 'react-router-dom';
 import NavDropdown from './NavDropDown';
+import './nav.css';
 
   const NavItem = props => {
     const pageURI = window.location.hash+window.location.search
@@ -19,12 +20,36 @@ import NavDropdown from './NavDropDown';
       </li>
     );
   }
-
 class Nav extends Component {
+    state = {
+      dTogl: '',
+      trgt: ''
+    }
+    updateDimensions = () => {
+      if(window.innerWidth < 992){
+        this.setState({
+          dTogl : "collapse",
+          trgt: 'navbarSupportedContent'
+        });
+      }else{
+        this.setState({
+          dTogl : "",
+          trgt: ''
+        });
+      };
+    }
+
+    componentDidMount() {
+      this.updateDimensions();
+      window.addEventListener("resize", this.updateDimensions.bind(this));
+    }
+    componentWillUnMount() {
+      window.removeEventListener("resize", this.updateDimensions.bind(this));
+    }
     render() {
       return (
-            <div className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <Link className="navbar-brand" to="/">Navbar</Link>
+            <div className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <Link className="navbar-brand" to="/"><img className="img-fluid" id="navbar-logo" src="/Images/Home/cst-logo.png" alt="CST-logo"/></Link>
                 <button className="navbar-toggler" 
                     type="button" data-toggle="collapse" 
                     data-target="#navbarSupportedContent" 
@@ -36,22 +61,22 @@ class Nav extends Component {
                 </button>
             
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
-                        <NavLink exact to="/" className="nav-link" >Etusivu</NavLink>
-                        <NavLink to="/comic" className="nav-link" >Sarjakuva</NavLink>
-                        <NavDropdown name="Maailma">
-                            <Link className="dropdown-item" to="/globinet">Globinet</Link>
-                            <Link className="dropdown-item" to="/society">Yhteiskunta</Link>
-                            <Link className="dropdown-item" to="/locations">Keskeiset paikat</Link>
+                    <ul className="navbar-nav ml-auto" data-toggle={this.state.dTogl} data-target={"#"+this.state.trgt} aria-controls={this.state.trgt}>
+                        <NavLink exact to="/" className="nav-link">Etusivu</NavLink>
+                        <NavLink to="/comic" className="nav-link">Sarjakuva</NavLink>
+                        <NavDropdown name="Maailma" loc="/world">
+                            <Link className="dropdown-item" to="/world/globinet">Globinet</Link>
+                            <Link className="dropdown-item" to="/world/society">Yhteiskunta</Link>
+                            <Link className="dropdown-item" to="/world/locations">Keskeiset paikat</Link>
                         </NavDropdown>
-                        <NavDropdown name="Hahmot">
-                            <Link className="dropdown-item" to="/protagonists">Päähenkilöt</Link>
-                            <Link className="dropdown-item" to="/personsofinterest">Keskeiset hahmot</Link>
+                        <NavDropdown name="Hahmot" loc="/chars">
+                            <Link className="dropdown-item" to="/chars/protagonists">Päähenkilöt</Link>
+                            <Link className="dropdown-item" to="/chars/supports">Keskeiset hahmot</Link>
                         </NavDropdown>
                         <NavLink to="/fanmail" className="nav-link">Faniposti</NavLink>
-                        <NavDropdown name="CST">
-                            <Link className="dropdown-item" to="/about">Mikä on CST?</Link>
-                            <Link className="dropdown-item" to="/personsofinterest">Keitä olemme?</Link>
+                        <NavDropdown name="CST" loc="/about">
+                            <Link className="dropdown-item" to="/about/cst">Mikä on CST?</Link>
+                            <Link className="dropdown-item" to="/about/creators">Keitä olemme?</Link>
                         </NavDropdown>
                         <NavItem name="Medialle" path="/media" disabled="true" />
                     </ul>
