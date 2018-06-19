@@ -40,6 +40,21 @@
     z-index: 2;
 }
 .pagenumber{
-    font-size: 2em;
     display: inline-block;
+    font-size: 1.8em;
+    position: absolute;
+    left: 47.5%;
+    z-index: 2;
+}
+.one-third{
+    max-width: 30%;
+}
+.one-fourth{
+    max-width: 22%;
+}
+.comicpage{
+    margin:2% 0 2% 0;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
 }

@@ -16,7 +16,7 @@ class PageComponent extends Component {
         return (
             <div className="text-center comicdiv">
                 <div className={status}><img className="loadicon" src="/Images/Loader/Loader_img.png" alt="Load icon"/></div>
-                <img className="img-fluid" src={this.props.source} alt={'page:'} onLoad={this.props.loaded}/>
+                <img className="img-fluid comicpage" src={this.props.source} alt={'page:'} onLoad={this.props.loaded}/>
             </div>
         );
     }
