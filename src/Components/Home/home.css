@@ -1,3 +1,6 @@
+.bg-color-darkergray{
+  background-color: #e9e9e9 !important;
+}
 .paragraph{
   font-size: 1.5em;
 }
@@ -8,8 +11,19 @@
   background-color: #96989b;
   border-radius: 5px 0 0 5px;
 }
-.opaque-2{
-  opacity: 0.2;
+.absolute{
+  position: absolute;
+  left: 12%;
+  top:0;
+}
+.mobile-hide{
+  max-width: 150px;
+}
+.saturate{
+  filter: saturate(75%);
+}
+.saturate:hover{
+  filter: saturate(100%);
 }
 @media only screen and (max-width: 767px) {
   .mobile-hide{
