@@ -19,7 +19,7 @@ class Home extends Component {
             <div className="row pb-5">
               <div className="col order-md-4"></div>
               <div className="col-4 col-md-3 col-lg-2 pb-1 pt-2 order-md-5">
-                <Link to="/comic"><img className="img-fluid saturate" src="/Images/Links/linkki-sarjis-vaaka.png" alt="Linkki sarjakuvaan"/></Link>
+                <Link to="/comic"><img className="img-fluid saturate" src="/Images/Links/linkki-sarjakuva-vaaka.png" alt="Linkki sarjakuvaan"/></Link>
               </div>
               <div className="col order-md-6"></div>
               <div className="col-xs-12 col-md-3 col-lg-2 col-xl-2 order-md-1">
@@ -45,7 +45,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="row pt-2">
-            <div className="col order-md-2"></div>
+              <div className="col order-md-2"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-3">
                 <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt="Globinet linkki"/></Link>
               </div>
@@ -58,13 +58,37 @@ class Home extends Component {
                 <p className="paragraph">Tähän joku johdatteleva teksti yhteiskuntaan ja maailmaan liittyen</p>
               </div>
             </div>
-              <div className="col-xs-12 col-md-12 col-lg-4 col-xl-4">
-              <h3>Hahmot</h3>
-              </div>
-              <div className="col-xs-12 col-md-12 col-lg-4 col-xl-4">
-              <h3>Tekijät</h3>
+            <div className="row pb-4 pt-5">
+              <div className="col-12">
+                <h2>Tutustu sarjakuvan hahmoihin</h2>
               </div>
             </div>
+            <div className="row pt-2">
+              <div className="col order-md-2"></div>
+              <div className="col-4 col-md-3 col-lg-2 order-md-3">
+                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-hahmot-vaaka.png" alt="Globinet linkki"/></Link>
+              </div>
+              <div className="col order-md-4"></div>
+              <div className="col-12 order-md-1">
+                <p className="paragraph">Tähän joku johdatteleva teksti hahmoihin liittyen</p>
+              </div>
+            </div>
+            <div className="row pb-4 pt-5">
+              <div className="col-12">
+                <h2>Tutustu sarjakuvan CST:hen</h2>
+              </div>
+            </div>
+            <div className="row pt-2">
+              <div className="col order-md-2"></div>
+              <div className="col-4 col-md-3 col-lg-2 order-md-3">
+                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-hahmot-vaaka.png" alt="Globinet linkki"/></Link>
+              </div>
+              <div className="col order-md-4"></div>
+              <div className="col-12 order-md-1">
+                <p className="paragraph">Tähän joku johdatteleva teksti CST:hen liittyen</p>
+              </div>
+            </div>
+          </div>
         </div>
       );
     }

@@ -6,28 +6,30 @@ const Chapter = props => {
   }
   const path = '/comic/' + props.book + '/page/' + props.pages;
   return (
-    <li className="list-inline-item one-fourth">
+    <div className="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-2">
       <Link to={path} className="card">
-        <img className="text-center img-fluid" src={'/Images/Comic/'+props.book+'/'+props.pages+'.png'} alt=""/>
+        <img className="text-center img-fluid" src={'/Images/Comic/'+props.book+'/'+props.pages+'.png'} alt={props.names}/>
       </Link>
-    </li>
+      <h6>{props.names}</h6>
+    </div>
   );
 }
 
 class BookChapters extends Component {
   render() {
     return (
-      <div className="row mt-5">
+      <div className="row mt-3">
         <div className="col"></div>
-          <div className="col-xs-12 col-lg-8">
-            <h5>Kirjan kappaleet {this.props.chapters}</h5>
-            <ul className="list-inline">
-              <Chapter pages={this.props.pages[0]} book={this.props.book}/>
-              <Chapter pages={this.props.pages[1]} book={this.props.book}/>
+          <div className="col-lg-12 col-xl-10">
+            <div className="row">
+              <div className="col"></div>
+              <Chapter pages={this.props.pages[0]} book={this.props.book} names={this.props.names[0]}/>
+              <Chapter pages={this.props.pages[1]} book={this.props.book} names={this.props.names[1]}/>
               <Chapter pages={this.props.pages[2]} book={this.props.book}/>
               <Chapter pages={this.props.pages[3]} book={this.props.book}/>
               <Chapter pages={this.props.pages[4]} book={this.props.book}/>
-            </ul>
+              <div className="col"></div>
+            </div>
           </div>
         <div className="col"></div>   
       </div> 

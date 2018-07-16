@@ -6,7 +6,6 @@ import FanMail from './Components/FanMail/FanMail';
 import Comic from './Components/Comic/Comic';
 import NotFound from './Components/Error/NotFound';
 import {
-  HashRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
@@ -15,7 +14,6 @@ import './app.css';
 class App extends Component {
   render() {
     return (
-      <Router>
         <div className="text-center">
             <Nav />
             <Switch>
@@ -26,7 +24,6 @@ class App extends Component {
               <Route component={NotFound}/>
             </Switch>
         </div>
-      </Router>
     );
   }
 }
