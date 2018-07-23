@@ -4,11 +4,11 @@ import axios from 'axios';
 
 class FanMail extends Component {
   state={
-    type: 'info', message: ''
+    message: ''
   }
   handleSubmit = (event) =>{
     event.preventDefault();
-    this.setState({ type: 'info', message: 'Sending...' }, this.sendFormData);
+    this.setState({message: 'Lähetetään viestiä...' }, this.sendFormData);
   }
   sendFormData = () =>{
     // Prepare form data for submitting it.
@@ -44,36 +44,38 @@ class FanMail extends Component {
       
       
       return (
-        <div className="container-fluid">
+        <div className="container-fluid pt-5">
           <div className="row">
             <div className="col"></div>
               <div className="col-xl-4 col-lg-6 col-md-8 col-sm-12">
               <form name="sentMessage" onSubmit={this.handleSubmit}>
                 <div className="control-group">
                 <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                    <label><h3>Name*</h3></label>
-                    <input ref="name" className="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name."/>
-                    <p className="help-block text-danger"></p>
+                    <label><h3>Nimimerkki*</h3></label>
+                    <input ref="name" className="form-control" id="name" type="text" placeholder="Nimimerkki" required="required" data-validation-required-message="Please enter your name."/>
                 </div>
                 </div>
                 <div className="control-group">
                 <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                    <label><h3>Email Address*</h3></label>
-                    <input ref="email" className="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
-                    <p className="help-block text-danger"></p>
+                    <label><h3>Sähköpostiosoite</h3></label>
+                    <input ref="email" className="form-control" id="email" type="email" placeholder="Sähköpostiosoite" data-validation-required-message="Please enter your email address." />
                 </div>
                 </div>
                 <div className="control-group">
                 <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                    <label><h3>Message*</h3></label>
-                    <textarea ref="message" className="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                    <p className="help-block text-danger"></p>
+                    <label><h3>Viesti*</h3></label>
+                    <textarea ref="message" className="form-control" id="message" rows="5" placeholder="Viesti" required="required" data-validation-required-message="Please enter a message."></textarea>
                 </div>
+                </div>
+                <br/>
+                <div>
+                  <h6>* pakollinen kenttä</h6>
+                  <h6>Jos haluat vastauksen esimerkiksi kysymykseesi, kirjoita sähköpostiosoiteesi.</h6>
                 </div>
                 <br/>
                 <div id="success">{this.state.message}</div>
                 <div className="form-group">
-                  <button type="submit" className="btn btn-dark" id="sendMessageButton">Send</button>
+                  <button type="submit" className="btn btn-dark" id="sendMessageButton">Lähetä</button>
                 </div>
               </form>
               </div>

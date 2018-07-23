@@ -41,19 +41,24 @@ class Home extends Component {
           <div className="container-fluid bg-color-darkergray pt-5">
             <div className="row pb-4">
               <div className="col-12">
-                <h2>Katsaus sarjakuvan maailmaan</h2>
+                <h2>Tutustu Globinetiin, sen yhteiskuntaan ja keskeisiin paikkoihin</h2>
               </div>
             </div>
             <div className="row pt-2">
-              <div className="col order-md-2"></div>
+            <div className="col order-md-2"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-3">
                 <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt="Globinet linkki"/></Link>
               </div>
-              <div className="col col-lg-1 order-md-4"></div>  
+            <div className="col order-md-4"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-5">
                 <Link to="/world/society"><img className="img-fluid saturate" src="/Images/Links/linkki-yhteiskunta-vaaka.png" alt="Yhteiskunta linkki"/></Link>
               </div>
-              <div className="col order-md-6"></div>
+            <div className="col order-md-6"></div>
+            <div className="col-4 col-sm-4 col-md order-md-8"></div>
+              <div className="col-4 col-md-3 col-lg-2 order-md-7">
+                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt="Globinet linkki"/></Link>
+              </div>
+            <div className="col-4 col-lg-12 order-md-9"></div>
               <div className="col-12 order-md-1">
                 <p className="paragraph">Tähän joku johdatteleva teksti yhteiskuntaan ja maailmaan liittyen</p>
               </div>
