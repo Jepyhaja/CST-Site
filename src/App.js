@@ -5,6 +5,7 @@ import Nav from './Components/Navigation/Nav';
 import FanMail from './Components/FanMail/FanMail';
 import Comic from './Components/Comic/Comic';
 import NotFound from './Components/Error/NotFound';
+import Characters from './Components/Characters/Characters';
 import {
   Route,
   Switch
@@ -21,6 +22,7 @@ class App extends Component {
               <Route path="/about" component={About}/>
               <Route path="/fanmail" component={FanMail}/>
               <Route path="/comic" component={Comic}/>
+              <Route path="/chars/protagonists" component={Characters}/>
               <Route component={NotFound}/>
             </Switch>
         </div>

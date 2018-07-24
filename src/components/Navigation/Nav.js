@@ -71,7 +71,7 @@ class Nav extends Component {
                         </NavDropdown>
                         <NavDropdown name="Hahmot" loc="/chars">
                             <Link className="dropdown-item" to="/chars/protagonists">Päähenkilöt</Link>
-                            <Link className="dropdown-item" to="/chars/supports">Keskeiset hahmot</Link>
+                            <Link className="dropdown-item" to="/chars/supports">Muut hahmot</Link>
                         </NavDropdown>
                         <NavLink to="/fanmail" className="nav-link">Faniposti</NavLink>
                         <NavDropdown name="CST" loc="/about">
