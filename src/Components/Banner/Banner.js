@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import ImgsAndAnchor from '../ImgsAndAnchor/ImgsAndAnchor';
 
 class Banner extends Component {
     render() {
@@ -10,12 +10,34 @@ class Banner extends Component {
                 <div className="col-10"><h1>{this.props.header}</h1></div>
                 <div className="col-1"></div>   
             </div>
-            <div className="row pt-2">
-                <div className="col-1"></div>
-                <div className="col-10">
-                    <img className="img-fluid" src={"/Images/Banner/"+this.props.name+".png"} alt={this.props.name}/>
-                </div>
-                <div className="col-1"></div>
+            <div className="row">
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Weasel"/></div>
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Veera"/></div>
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Sose-tonttu"/></div>
+                <div className="col"></div>
+            </div>
+            <div className="row">
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="WR"/></div>
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Taalatasku"/></div>
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Prinssi"/></div>
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Tyger"/></div>
+                <div className="col"></div>
+            </div>
+            <div className="row">
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Baby-Lynx"/></div>
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Herhilainen"/></div>
+                <div className="col"></div>
+                <div className="col-2"><ImgsAndAnchor name="Tuhkis"/></div>
+                <div className="col"></div>
             </div>
         </div>
       );

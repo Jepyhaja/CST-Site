@@ -48,7 +48,7 @@ class Nav extends Component {
     }
     render() {
       return (
-            <div className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Link className="navbar-brand" to="/"><img className="img-fluid" id="navbar-logo" src="/Images/Home/cst-logo.png" alt="CST-logo"/></Link>
                 <button className="navbar-toggler" 
                     type="button" data-toggle="collapse" 

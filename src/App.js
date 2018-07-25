@@ -24,7 +24,7 @@ class App extends Component {
               <Route path="/comic" component={Comic}/>
               <Route path="/chars/protagonists" component={Characters}/>
               <Route component={NotFound}/>
-            </Switch>
+            </Switch>  
         </div>
     );
   }

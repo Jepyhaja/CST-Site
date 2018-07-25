@@ -9,10 +9,10 @@ class Characters extends Component {
     render() {
       return (
           <div className="container-fluid">
-            <Banner header="Päähenkilöt" name="hahmot"/>
+            <Banner header="Päähenkilöt" name="Hahmot"/>
             <TextAndImg text="order-lg-2" image="order-lg-1" name="Baby-Lynx"/>
-            <TextAndImg text="order-lg-1" image="order-lg-2" name="Herhiläinen"/>
-            <TextAndImg text="order-lg-2" image="order-lg-1" name="Kaunis Veera"/>
+            <TextAndImg text="order-lg-1" image="order-lg-2" name="Herhilainen"/>
+            <TextAndImg text="order-lg-2" image="order-lg-1" name="Veera"/>
             <TextAndImg text="order-lg-1" image="order-lg-2" name="Prinssi"/>
             <TextAndImg text="order-lg-2" image="order-lg-1" name="Sose-tonttu"/>
             <TextAndImg text="order-lg-1" image="order-lg-2" name="Taalatasku"/>

@@ -71,7 +71,7 @@ class Home extends Component {
             <div className="row pt-2">
               <div className="col order-md-2"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-3">
-                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-hahmot-vaaka.png" alt="Globinet linkki"/></Link>
+                <Link to="/Chars/Protagonists"><img className="img-fluid saturate" src="/Images/Links/linkki-hahmot-vaaka.png" alt="Globinet linkki"/></Link>
               </div>
               <div className="col order-md-4"></div>
               <div className="col-12 order-md-1">
