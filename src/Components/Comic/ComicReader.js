@@ -130,7 +130,7 @@ class ComicReader extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col"></div>
-                        <div className="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 mt-5">
+                        <div className="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 mt-5">
                             <div className="row">
                                 <div className="col">
                                     <Link className={"btn btn-sm btn-secondary m-1 "+this.state.lCor} to={previousUrl(3)} onClick={this.openLoadingScreen}>&lt;&lt;&lt;</Link>

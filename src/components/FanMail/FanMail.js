@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 
 class FanMail extends Component {
+  componentDidMount(){
+    window.scrollTo(0,0);
+  }
   state={
     message: ''
   }

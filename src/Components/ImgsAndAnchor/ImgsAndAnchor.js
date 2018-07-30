@@ -20,11 +20,14 @@ class ImgsAndAnchor extends Component {
   }
   
     render() {
+      if(!this.props.name){
+        return null;
+      }
       return (
           <Link to={'/chars/protagonists#'+this.props.name}>
             <img className="img-fluid" src={"/Images/Hahmot/"+this.props.name+".png"} alt={this.props.name}/>
             <br/>
-            <img className="img-fluid" src={"/Images/Nimikirjoitukset/"+this.props.name+".png"} alt={"Nimikijoitus "+this.props.name}/>
+            <img className="img-fluid" src={"/Images/Nimikirjoitukset/"+this.props.name+".png"} alt={this.props.name}/>
           </Link>
       );
     }

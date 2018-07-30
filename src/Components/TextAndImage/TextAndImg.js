@@ -3,7 +3,8 @@ import React, {Component} from 'react';
 class TextToRight extends Component {
     state = {
         p1: '',
-        p2: ''
+        p2: '',
+        p3: ''
     }
     componentWillMount=()=>{
         this.getTxt(this.props.name);
@@ -17,7 +18,8 @@ class TextToRight extends Component {
             const splitted = text.split('/')
             this.setState({
                 p1:splitted[0],
-                p2:splitted[1]
+                p2:splitted[1],
+                p3:splitted[2]
             })
         }
     }
@@ -30,11 +32,16 @@ class TextToRight extends Component {
         }
     }
     render() {
+        if(!this.props.name){
+            return null;
+        }
       return (
         <div>    
-            <div id={this.props.name} className="row pt-2">
-                <div className={"col-md-12 col-lg-6 "+ this.props.image}><img className="img-fluid" src={"/Images/Sotilaskortit/"+this.props.name+".png"} alt={this.props.name}/></div>
-                <div className={"col-md-12 col-lg-6 pt-5 paragraph "+ this.props.text}><p>{this.state.p1}</p><p>{this.state.p2}</p></div>
+            <div id={this.props.name} className="row pt-5">
+            <div className="col order-1"></div>
+                <div className={"col-md-12 col-lg-6 "+ this.props.image}><img className="img-fluid charcard" src={"/Images/Sotilaskortit/"+this.props.name+".png"} alt={this.props.name}/></div>
+                <div className={"col-md-12 col-lg-5 col-xl-4 "+ this.props.text}><p className="chardesc paragraph">{this.state.p1}</p><p className="paragraph">{this.state.p2}</p><p className="paragraph">{this.state.p3}</p></div>
+            <div className="col order-4"></div>
             </div>
             <button className="btn btn-secondary" onClick={this.scrollToTop}>Takaisin ylös</button>
         </div>

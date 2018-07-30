@@ -20,6 +20,9 @@ const Book = props => {
 }
 
 class Comic extends Component {
+  componentDidMount(){
+    window.scrollTo(0,0);
+  }
     render() {
       const pageURI = window.location.hash+window.location.search;
       const checker = pageURI.split("/");

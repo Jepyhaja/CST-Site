@@ -5,27 +5,28 @@ import {
 import './home.css';
 
 class Home extends Component {
+  componentDidMount(){
+    window.scrollTo(0,0);
+  }
     render() {
       return (
         <div>
           <div className="container-fluid">
-            <div className="row pt-4">
+            <div className="row pt-5 pb-5">
               <div className="col"></div>
-              <div className="col-xs-12 col-md-12 col-lg-8 col-xl-6 pb-5">
+              <div className="col-xs-12 col-md-12 col-lg-8 col-xl-6">
                 <img className="img-fluid" src="/Images/Home/cst-blogo.png" alt="CST Charlie's Surfing Team"/>
               </div>
               <div className="col"></div>
             </div>
             <div className="row pb-5">
-              <div className="col order-md-4"></div>
-              <div className="col-4 col-md-3 col-lg-2 pb-1 pt-2 order-md-5">
+              <div className="col-3 col-lg order-md-4"></div>
+              <div className="col-6 col-md-4 col-lg-3 pb-1 pt-5 order-md-5">
                 <Link to="/comic"><img className="img-fluid saturate" src="/Images/Links/linkki-sarjakuva-vaaka.png" alt="Linkki sarjakuvaan"/></Link>
               </div>
-              <div className="col order-md-6"></div>
-              <div className="col-xs-12 col-md-3 col-lg-2 col-xl-2 order-md-1">
-                <img className="img-fluid mobile-hide absolute" src="/Images/Home/adrian.png" alt="Adrian"/>
-              </div>
-              <div className="col-xs-12 col-md-8 col-lg-8 col-xl-8 order-md-2">
+              <div className="col-3 col-lg order-md-6"></div>
+              <div className="col-3 col-lg-2 pb-1 pt-2 order-md-1"></div>
+              <div className="col-xs-12 col-md-12 col-lg-8 col-xl-8 order-md-2">
                 <p className="paragraph">
                 “‘After lifen' käsite saa uuden merkityksen 15- vuotiaan Howien paiskautuessa itsemurhansa yhteydessä vuosikymmeniä taaksepäin. 
                 Robottisodan uhka väreilee ilmassa, mutta onneksi Team Barracuda - erikoisoperaatioon valikoituu vain kymmenen parasta miestä - 
@@ -56,7 +57,7 @@ class Home extends Component {
             <div className="col order-md-6"></div>
             <div className="col-4 col-sm-4 col-md order-md-8"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-7">
-                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt="Globinet linkki"/></Link>
+                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt=" linkki"/></Link>
               </div>
             <div className="col-4 col-lg-12 order-md-9"></div>
               <div className="col-12 order-md-1">
@@ -71,26 +72,30 @@ class Home extends Component {
             <div className="row pt-2">
               <div className="col order-md-2"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-3">
-                <Link to="/Chars/Protagonists"><img className="img-fluid saturate" src="/Images/Links/linkki-hahmot-vaaka.png" alt="Globinet linkki"/></Link>
+                <Link to="/Chars/Protagonists"><img className="img-fluid saturate" src="/Images/Links/linkki-paahenkilot-vaaka.png" alt="päähenkilöt linkki"/></Link>
               </div>
               <div className="col order-md-4"></div>
+              <div className="col-4 col-md-3 col-lg-2 order-md-5">
+                <Link to="/Chars/Supports"><img className="img-fluid saturate" src="/Images/Links/linkki-tarkeathahmot-vaaka.png" alt="tärkeät hahmot linkki"/></Link>
+              </div>
+              <div className="col order-md-6"></div>
               <div className="col-12 order-md-1">
                 <p className="paragraph">Tähän joku johdatteleva teksti hahmoihin liittyen</p>
               </div>
             </div>
             <div className="row pb-4 pt-5">
               <div className="col-12">
-                <h2>Tutustu sarjakuvan CST:hen</h2>
+                <h2>Tutustu meihin ja CST:hen</h2>
               </div>
             </div>
             <div className="row pt-2">
               <div className="col order-md-2"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-3">
-                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-hahmot-vaaka.png" alt="Globinet linkki"/></Link>
+                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-hahmot-vaaka.png" alt="Cst esittely linkki"/></Link>
               </div>
               <div className="col order-md-4"></div>
               <div className="col-12 order-md-1">
-                <p className="paragraph">Tähän joku johdatteleva teksti CST:hen liittyen</p>
+                <p className="paragraph">Tähän joku johdatteleva teksti CST:hen ja teihin liittyen</p>
               </div>
             </div>
           </div>

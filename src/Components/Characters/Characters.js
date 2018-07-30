@@ -1,25 +1,27 @@
 import React, {Component} from 'react';
-import Banner from '../Banner/Banner';
+import CharsBanner from './CharsBanner';
 import TextAndImg from '../TextAndImage/TextAndImg';
-import {
-  Link
-} from 'react-router-dom';
+import './characters.css';
+
 
 class Characters extends Component {
+  componentDidMount(){
+    window.scrollTo(0,0);
+  }
     render() {
       return (
           <div className="container-fluid">
-            <Banner header="Päähenkilöt" name="Hahmot"/>
-            <TextAndImg text="order-lg-2" image="order-lg-1" name="Baby-Lynx"/>
-            <TextAndImg text="order-lg-1" image="order-lg-2" name="Herhilainen"/>
-            <TextAndImg text="order-lg-2" image="order-lg-1" name="Veera"/>
-            <TextAndImg text="order-lg-1" image="order-lg-2" name="Prinssi"/>
-            <TextAndImg text="order-lg-2" image="order-lg-1" name="Sose-tonttu"/>
-            <TextAndImg text="order-lg-1" image="order-lg-2" name="Taalatasku"/>
-            <TextAndImg text="order-lg-2" image="order-lg-1" name="Tuhkis"/>
-            <TextAndImg text="order-lg-1" image="order-lg-2" name="Tyger"/>
-            <TextAndImg text="order-lg-2" image="order-lg-1" name="Weasel"/>
-            <TextAndImg text="order-lg-1" image="order-lg-2" name="WR"/>
+            <CharsBanner header={this.props.type} name={this.props.chars}/>
+            <TextAndImg text={this.props.StyleRight} image={this.props.StyleLeft} name={this.props.chars[0]}/>
+            <TextAndImg text={this.props.StyleLeft} image={this.props.StyleRight} name={this.props.chars[1]}/>
+            <TextAndImg text={this.props.StyleRight} image={this.props.StyleLeft} name={this.props.chars[2]}/>
+            <TextAndImg text={this.props.StyleLeft} image={this.props.StyleRight} name={this.props.chars[3]}/>
+            <TextAndImg text={this.props.StyleRight} image={this.props.StyleLeft} name={this.props.chars[4]}/>
+            <TextAndImg text={this.props.StyleLeft} image={this.props.StyleRight} name={this.props.chars[5]}/>
+            <TextAndImg text={this.props.StyleRight} image={this.props.StyleLeft} name={this.props.chars[6]}/>
+            <TextAndImg text={this.props.StyleLeft} image={this.props.StyleRight} name={this.props.chars[7]}/>
+            <TextAndImg text={this.props.StyleRight} image={this.props.StyleLeft} name={this.props.chars[8]}/>
+            <TextAndImg text={this.props.StyleLeft} image={this.props.StyleRight} name={this.props.chars[9]}/>
           </div>
       );
     }
