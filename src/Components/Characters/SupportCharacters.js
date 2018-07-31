@@ -4,14 +4,14 @@ import Characters from './Characters';
 class SupportCharacters extends Component {
     render() {
       const chars = [
-        "Carina Håst-Fagel",
-        "Cody Håst-Fagel",
-        "Dead President",
-        "Everett Horsefall",
+        "Carina",
+        "Cody",
+        "Dead-President",
+        "Everett",
         "Jen",
         "Jessie",
-        "Lotta BigJack",  
-        "Marlyn Rawpike",
+        "Lotta",  
+        "Marlyn",
         "Mini"
       ];
       return (

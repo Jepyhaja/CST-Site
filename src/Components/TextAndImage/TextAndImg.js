@@ -39,7 +39,7 @@ class TextToRight extends Component {
         <div>    
             <div id={this.props.name} className="row pt-5">
             <div className="col order-1"></div>
-                <div className={"col-md-12 col-lg-6 "+ this.props.image}><img className="img-fluid charcard" src={"/Images/Sotilaskortit/"+this.props.name+".png"} alt={this.props.name}/></div>
+                <div className={"col-md-12 col-lg-6 "+ this.props.image}><img className="img-fluid charcard" src={"/Images/"+this.props.type+"/"+this.props.name+".png"} alt={this.props.name}/></div>
                 <div className={"col-md-12 col-lg-5 col-xl-4 "+ this.props.text}><p className="chardesc paragraph">{this.state.p1}</p><p className="paragraph">{this.state.p2}</p><p className="paragraph">{this.state.p3}</p></div>
             <div className="col order-4"></div>
             </div>

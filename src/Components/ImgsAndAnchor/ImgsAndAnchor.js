@@ -24,7 +24,7 @@ class ImgsAndAnchor extends Component {
         return null;
       }
       return (
-          <Link to={'/chars/protagonists#'+this.props.name}>
+          <Link to={'/chars/'+this.props.type+'#'+this.props.name}>
             <img className="img-fluid" src={"/Images/Hahmot/"+this.props.name+".png"} alt={this.props.name}/>
             <br/>
             <img className="img-fluid" src={"/Images/Nimikirjoitukset/"+this.props.name+".png"} alt={this.props.name}/>
