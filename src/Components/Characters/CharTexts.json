@@ -1,0 +1,204 @@
+{
+    "Chars":[
+        {        
+            "id" : "Tunniste jolla löydän hahmon",
+            "Name": "Hahmon koko nimi",
+            "Text" : {
+                "p1": "Ensimmäinen teksti kappale",
+                "p2": "Toinen teksti kappale",
+                "p3": "Kolmas teksti kappale",
+                "p4": "Neljäs teksti kappale"
+            }
+        },
+        {        
+            "id" : "Baby-Lynx",
+            "Name": "Baby-Lynx",
+            "Text" : {
+                "p1": "Adrian eli Baby Lynx on Lynxtonien surullisenkuuluisan aatelissuvun viimeinen edustaja. Yksi robottisotaa edeltäneistä isoista servo-bottien ja ihmisten välisistä kahakoista käytiin Lynxtonien mailla Lynxvale Residencessä. Yhteenotto johti siihen, että sammumaan päin olleesta Ilvesten suvusta edustamaan jäi vain 16-vuotias Adrian Jules Lynxton.",
+                "p2": "Puolitoista vuotta vihaansa robotteja kohtaan kerättyään Adrian ilmoittautuu Team Barracudaan - missioon, johon otetaan vain sotilaita, joilla ei ole enää mitään menetettävää.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Carina",
+            "Name": "Carina Håst-Fägel",
+            "Text" : {
+                "p1": "Håst-Fägelit ja Horsefallit ovat pitkäaikaisia perhetuttuja, joten veljensä tapaan myös Carina on viettänyt nuoruutensa kesät Colt’s Headissa. Koko Horsefallien perhe on tullut Carinalle vuosien myötä tutuksi – jopa siinä määrin, että hän päätyi naimaan Emmettin isoveljen, Emmanuelin. Carina ja Emmanuel asustavatkin tätä nykyä Colt’s Headissa pienen poikansa, Everettin kanssa.",
+                "p2": "Carina on erittäin muotitietoinen ja tuntee kaupan alan kaikki mutkat. Hän omistaa oman hajuvesibrändinsä, jota myydään Codyn omistaman “Commander Cody” -vaatemerkin yhteydessä.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Cody",
+            "Name": "Cody Håst-Fägel",
+            "Text" : {
+                "p1": "Emmett ja Cody tuntevat toisensa jo lapsuusajoiltaan, kun molemmat viettivät naurun- ja rakkaudentäyteisiä kesiä Horsefallien kotitilalla Colt's Headissa.",
+                "p2": "Emmett ja Cody eivät koskaan välttämättä kokeneet seurustelevansa, mutta viihtyivät yhtäkaikki tiiviisti yhdessä. Codya on elämässään kuitenkin aina ohjannut pyrkimys täydelliseen lintu-aateluuteen, joten Hevos-sukuisen Emmettin kanssa eläminen ei koskaan tuntunut Codysta lopulliselta päämäärältä. Codyn ja Emmettin polut lähtivät lopulta konkreettisesti kuljettamaan nuorukaisia eri suuntiin, kun seikkailunhaluinen Emmett päätti hakea armeijauraansa nostetta suuntaamalla kohti Warrackin kovatasoista maanpuolustuskorkeakoulua.",
+                "p3": "Cody on teini-idoli. Hän on myös surffaaja, tyylikäs ja rikas. Cody viettää aikaansa ulkomailla auringon alla, eikä tunnu piittaavan ihmiselon yksinkertaisista murheista. Mutta silti Emmett rakastaa häntä – kuten kaikki muutkin. Vaikka robottisota on onnistunut kylvämään paljon epäsopua ja vihaa ihmisten ja kansojen välille, Emmettin ja Codyn ystävyys on säilynyt läpi vaikeiden aikojen. Ainoastaan Emmettin nykyisellä kumppanilla, Howardilla, on vaikeuksia sulattaa Emmettin ja Codyn lämpimiä välejä…",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Dead-President",
+            "Name": "Dead President",
+            "Text" : {
+                "p1": "Warrack Military Universityssä (WMU) työskentelevä Dead President on Emmettin ja Howardin entinen kouluttaja. Dead President on pidetty hahmo, joka karismaattisella esiintymisellään ja lempeän napakalla otteellaan kouluttaa WMU:n parhaita sotilaita.",
+                "p2": "Kaikki tuntuvat ihailevan ja kunnioittavan Dead Presidentiä – paitsi Emmett. Kouluttajassa on jotakin harvinaista, joka saa Emmettin nieleskelemään kiukkuaan ja miettimään sanojaan kahta kauemmin. Vaikeaksi tilanteen tekee Howardin suunnaton ihailu ja kiintymys entistä kouluttajaansa kohtaan – eikä asioita ainakaan helpota Dead Presidentin erittäin myötämielinen suhtautuminen Howardiin.",
+                "p3": "Dead president on alansa ehdottomia huippuja ja kaikkien rakastama esikuva. Hän ei kuitenkaan juuri puhu menneisyydestään, eikä kukaan tiedä, mistä hänen arpensa ovat saaneet alkunsa, tai mistä hänen tiensä on alkujaan Warrackiin johtanut.",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Everett",
+            "Name": "Everett Horsefall",
+            "Text" : {
+                "p1": "Everett on Emmettin veljenpoika, eli Emmanuelin ja Carinan esikoinen. Everett edustaa nuorempaa sukupolvea, joka tekee tietoista eroa edellisen ikäpolven toimintamalleihin ja tapoihin. Everettillä onkin pyrkimys uudistaa Horsefallien ratsastuskoulutoimintaa ja kasvattaa perinteikkään yrityksen liikevaihtoa aivan uusilla keinoilla, kuten yritysten yhteistyöllä. Tästä syystä Everett onkin viettänyt paljon aikaa Rawpike-suvun Marlynin kanssa.",
+                "p2": "Luonteeltaan Everett on hevossuvuille tyypilliseen tapaan lauhkea ja maltillinen. Hänen luonteensa saa kuitenkin särmää äitinsä puolelta, sillä hevos-lintusukuun kuuluvat Håst-Fägelit ovat tunnetusti räiskyvämpiä ja paljon ulospäinsuuntautuneempia kuin hevossukuiset. Arvoltaan Everett on kuitenkin täysverinen hevosaatelinen, sillä on perinyt hevos-geenit kummankin vanhempansa puolelta.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Herhilainen",
+            "Name": "Herhiläinen",
+            "Text" : {
+                "p1": "Howard Duncan Leopold Royale-Hillington (27), eli tuttavallisemmin Howie, tunnetaan lempinimeltään Herhiläisenä. Herhiläinen ei juuri seuraleikeistä tai yleisestä veljeydestä piittaa, vaan viettää aikaansa mieluummin omissa oloissaan. Tulisesta temperamentista tunnettu komentaja ei herkästi hempeitä tunteitaan näytä, ellei sitten hyvin valikoidulle seuralle - kuten cattain Taalataskulle...",
+                "p2": "Team Barracudan komentajana Herhiläinen on armoton ja vaativa. Alaisten on välillä vaikea kestää kireää esimiestään, mutta ankarassa missiossa tiukasta suorituskeskeisyydestä on silloin tällöin hyötyäkin.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Jen",
+            "Name": "Jen",
+            "Text" : {
+                "p1": "Jen, tunnetaan myös nimellä Nala, on Jessien pikkusisko. Kuten Jessie, myös Jen viettää aikaansa paljon Hell Fish Hallissa. Jenin alaa on kaikki tietotekniikkaan ja teknologiaan liittyvä, ja hän toimiikin kartanon yleisluontoisena apukätenä ja IT-tukena. Kuten isosiskonsa, myös Jen osaa olla terävä ja määrätietoinen. Rauhallisena ja vetäytyvänä luonteena hän ei kuitenkaan usein kehtaa tai halua asettua kovaäänisempien tielle, vaan mieluummin seuraa tapahtumia hyvältä näköetäisyydeltä.",
+                "p2": "",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Jessie",
+            "Name": "Jessie",
+            "Text" : {
+                "p1": "Jessie on Marlynin pitkäaikaisin ja luotetuin ystävä. Puoliveristä kissasukua edustava Jessie viettää aikaansa Hell Fish Hallissa Marlynin nurkissa ja tienaa elantonsa vloggaamalla erilaisista kauneustuotteista ja lifestylestä.",
+                "p2": "Jessie on kipakka ja itsetietoinen nainen. Hän osaa pitää päänsä kylmänä haastavissakin tilanteissa, mutta tarpeen vaatiessa ottaa ohjat käsiinsä ilman epäröintiä. Jessie toimiikin usein rauhoittelevana äänenä, kun temperamenttisempi Marlyn saa kiukun- tai raivonpuuskan.",
+                "p3": "Hell Fish Hallin hovimestari, James (aiemmin Adrian Lynxton) ja Jessie viihtyvät yhdessä. Jopa siinä määrin, että tarinan alkaessa pariskunnan häitä vietetään Hell Fish Hallissa.",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Lotta",
+            "Name": "Lotta BigJack",
+            "Text" : {
+                "p1": "Lotta on Veeran pikkusisko ja Prinssin avopuoliso. Lotta ja Prinssi tuntevat toisensa jo vuosien takaa, kun Prinssin perhe asusti BigJackien naapuritilalla. Prinssin jouduttua rintamalle Lotta päätti seurata rakastaan ja päätyi Minin apulaiseksi baariin.",
+                "p2": "Veera ja Lotta tulevat ankarista kotioloista, joissa tytöt joutuivat kasvattamaan itse itsensä. He joutuivat usein myös suojelemaan toisiaan erinäisiltä vaaroilta – joskus myös kodin sisällä tapahtuvilta asioilta. Erityisesti Veera joutui kantamaan paljon vastuuta siskosten ollessa nuoria. Lotta onkin oppinut isosiskoltaan läheisten kunnioittamista ja huolenpitoa.",
+                "p3": "Persoonana Lotta ei ole yhtä napakka kuin siskonsa, mutta heillä on samanlainen hoivavietti heikossa asemassa olevia kohtaan. Lotta on myös hyvin järjestelmällinen ja ripeä, eikä hän missään tilanteessa pelkää tarttua toimeen.",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Marlyn",
+            "Name": "Marlyn Rawpike",
+            "Text" : {
+                "p1": "Vanhaan kalasukuun kuuluva Marlyn pitää valtaa Hell Fish Hallin iäkkäällä tilalla. Marlyn ei ole yleisesti pidetty, mutta kylläkin pelätty henkilö. Hänet tunnetaan temperamenttisuudestaan sekä ajoittaisista raivonpuuskista, jotka volyymillään ravistelevat kartanon kattorakenteita.",
+                "p2": "Marlynin tavoitteena on jo vuosien ajan ollut solmia liikekumppanuus Horsefallien sukuun kuuluvan Everettin kanssa. Varakkaiden perheyritysten yhdistäminen poikisi nimittäin kummallekin sievoiset sivuansiot. Marlyn ja Everett ovat yrittäneet sovittaa bisneksiään yhteen tavalla jos toisella, mutta sopivaa kumppanuusmuotoa ei millään tunnu löytyvän. Hevosalaa ratsastuskouluineen ei olekaan helppo yhdistää veneisiin ja merenkulkuun.",
+                "p3": "Marlyn on Jamesin esimies – ja ankara sellainen. Hovimestari saakin usein kuulla luentoja esimerkiksi Marlynin rakastamien laventeli-istutusten huolessapidosta.",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Mini",
+            "Name": "Mini",
+            "Text" : {
+                "p1": "Minin baari on kasarmin suosituin illanviettopaikka, jossa voi niin heittää korot kattoon kuin nukkua päiväuniakin. Mini ei alkujaan ollut baarinpitäjä, mutta paettuaan entisen kotimaansa, Russeltanian, nälänhätää hän päätti aloittaa uuden elämän kaupan alalla.",
+                "p2": "Minin entisistä perhesuhteista ei tiedetä paljoakaan. Eräänä sateisena iltana – useita vuosia ennen Team Barracudaa – Mini sattui törmäämään nuoreen Howardiin. Lämminsydämisenä ihmisenä Mini ei saattanut jättää lasta yksin ulos, vaan otti tämän sisään – eivätkä kaksikon tiet ole sen koommin eronneet. Minin ja Howardin välit ovatkin erittäin läheiset – jopa niin läheiset, että ympärillä olevat ihmiset käsittävät heidät usein äidiksi ja pojaksi.",
+                "p3": "Howardin tutustuttua Emmettiin Minin perhe kasvoi jälleen. Nykyään niin Howard kuin Emmettkin viettävät Minin baarissa aikaansa kuin kotonaan. Myös paikalla hieman harvemmin vieraileva Howardin ja Emmettin entinen kouluttaja, Dead President on Minille hyvin läheinen.",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Prinssi",
+            "Name": "Prinssi",
+            "Text" : {
+                "p1": "Prinssi, 19, on kotoisin Franadasta, A-Loxin rauhallisesta ja vauraasta etelävaltiosta. Ennen rintamallelähtöään Prinssi asusti mummonsa kanssa lähellä BigJackien maatilaa perheensä vanhassa observatoriossa. Prinssi ei ole ehtinyt opiskella lääketiedettä korkeakoulussa, mutta itseoppineena luonnonlääketieteen taitajana osaa alansa moitteettomasti.",
+                "p2": "Aatteeltaan Prinssi on pasifisti, mutta rintamalle hän joutui asevelvollisuudesta. Team Barracudaan Prinssi ilmoittautui kuitenkin vapaaehtoisesti, sillä näkee missiossa väylän toteuttaa parantajan luontoaan ja levittää osaltaan inhimillisyyttä julman sodan keskellä.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Sose-tonttu",
+            "Name": "Sose-Tonttu",
+            "Text" : {
+                "p1": "Sose-Tonttu (25) eli Pete (tuttavallisemmin Sose), on kaksoisveljensä Weaselin tavoin A-Loxin karun teollisuusalueen kasvatti. Toisin kuin veljensä, Sose ei ole mikään penaalin terävin kynä ja riittämättömyyden tunne painaa häntä päivittäin, kun yksinkertaisetkin tehtävät osoittautuvat ylitsepääsemättömiksi.",
+                "p2": "",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Taalatasku",
+            "Name": "Taalatasku",
+            "Text" : {
+                "p1": "Emmett Horsefallilla eli Taalataskulla (29) on päävastuu Team Barracuda -erikoismissiosta. Tärkeästä roolistaan huolimatta Taalatasku ei turhista pingota, vaan hoitaa tehtävänsä lempeän napakalla tyylillä.",
+                "p2": "Taalatasku kuuluu Horsefallien aatelissukuun ja onkin perinyt perheelleen tyypillisen lauhkean luonteenlaadun. Tarkkanäköisenä ja reippaana tunnettu cattain ohjastaa joukkojaan rivakalla, mutta veljellisellä otteella. Hyvänä esimiehenä Taalatasku tulee toimeen lähes kaikkien kanssa, mutta erityisesti hän viihtyy Team Barracudan beetenantin, eli Herhiläisen seurassa.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Tuhkis",
+            "Name": "Tuhkis",
+            "Text" : {
+                "p1": "Mauritiuksen Mangoliastanista, eli kavereiden kesken Tuhkiksen (19), uskotaan olevan puolivilli lisko-ihminen. Sotilasvaltio Warrackin muurien takana Mangoliastan sai rehevöityä vuosisatoja rauhassa, kunnes robottisodan sytyttyä nuori Mauritius teki ensimmäisenä villinä tiensä takaisin sivistyksen pariin. Lievästä kulttuurishokista kärsivä Tuhkis on silloin tällöin hieman hämmennyksissä uuden ympäristönsä säännöistä ja normeista, mutta onneksi ainakin Veera on aina valmis valistamaan omaa villimiestään.",
+                "p2": "Tuhkis ilmoittautuu Team Barracudaan vapaaehtoisena, vaikkei asevoimaan uskokaan. Rakkauden ja rauhan lähettiläänä hän pyrkiikin levittämään aatettaan tasa-arvosta ja inhimilisyydestä sodan turmelemiin sieluihin ja sivilisaatiion.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Tyger",
+            "Name": "Tyger",
+            "Text" : {
+                "p1": "Tyger eli Elli Nykänen (25) kasvoi Cambananan viidakossa muiden viidakkolasten hylkimänä. 16-vuotiaana väärinymmärretty lapsinero sai tarpeekseen tiukoista sukupuoliluokitteluista ja vähemmän kehittyneistä viidakkolapsista ja päätti yksinkertaisesti häipyä tiikerinsä kanssa maisemista. Hyppy tuntemattomaan tuotti tulosta ja Tyger törmäsi Wreck Ratiin, jonka kanssa he pääsivät opiskelutovereidensa suosioon alta aikayksikön yhdistämällä erityisosaamisensa omaksi hyödykseen.",
+                "p2": "Koulunsa päätettyään teknologiasta kaiken tietävä Tyger päätyi työskentelemään salaiseen palveluun, josta hänet komennettiin mukaan Team Barracudaan muun muassa koska oli ainoa, joka osasi kulkea Cambananan viidakoissa.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Veera",
+            "Name": "Veera",
+            "Text" : {
+                "p1": "Vahvana ja itsenäisena yksilönä Kaunis Veera (24) herättää paljon huomiota armeijan harmauden keskellä, mutta hieman ennen vapaaehtoista pestautumistaan Veera vannoi, ettei halua enää koskaan olla läheisissä tekemisissä miesten kanssa. Edes tunnettuna naistenmiehenä pidetty Weasel ei tunnu saavan otetta komppanian tehokkaimmaksi sotilaaksi nimitetystä Veerasta. Veera on päätöksensä nimittäin tehnyt: sopivia miehiä ei yksinkertaisesti ole – ei ainakaan Warrackin muurien länsipuolella…",
+                "p2": "",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "Weasel",
+            "Name": "Weasel",
+            "Text" : {
+                "p1": "Weasel eli Walt (aiemmin tunnettu nimellä Whistle), 25, on köyhän autokauppiasperheen toinen kaksoispoika. Naistenmiehenä tunnettu Weasel on siunattu myös älynlahjoillaan, mikä aiheuttaa toisinaan turhautuneisuutta luokkajärjestelmän pohjalle syntyneelle älykölle. Jonesien ainoina lapsina veljekset ovat viettäneet suuren osan lapsuudestaan perheyrityksen Auto-Jesarin parissa, mikä on antanut Weaselille kattavan tuntemuksen konetekniikan ihmeellisestä maailmasta ja rakkauden bensan tuoksuun.",
+                "p2": "Luokkajärjestelmän pohjasakkaan kuuluvana sotaan joutuminen ei ole Weaselin oma valinta, mutta Team Barracudaan hän ilmoittautuu vapaaehtoisesti. Missioon osallistumalla Weasel toivoo saavansa vihdoinkin osakseen älyään vastaavia tehtäviä ja arvostusta.",
+                "p3": "",
+                "p4": ""
+            }
+        },
+        {        
+            "id" : "WR",
+            "Name": "WR",
+            "Text" : {
+                "p1": "Wreck Rat eli WR eli Bud Ratigan (25) on Team Barracudan viihde-, tatuointi- ja räjähdevastaava. Hän opiskeli nuoruutensa samoissa kouluissa kuin Tyger, kirjoitti kandidaatin tutkielmansa Rumban rakettiuhasta, ja perehtyi siinä samalla laajasti hallusiogeeniseen kasvistoon, jolla myös aloitti viihdebisneksensä. Räjähtävästä persoonallisuudestaan tunnettu WR esiintyy usein myös Miss Bonfirena, huumaavan pitkäsäärisenä ja sanavalmiina drag queenina.",
+                "p2": "Team Barracudaan WR päätyi Tygerin suostuttelemana, kun huumausainerikoksesta tuomitun muut vaihtoehdot olisivat olleet joko pitkä tuomio pahamaineisessa vankilassa tai elämää suuremmat sakot, joihin pienituloisella Civan kassatyöläisellä ei olisi ollut varaa.",
+                "p3": "",
+                "p4": ""
+            }
+        }
+    ]   
+}
