@@ -5,11 +5,16 @@ import './characters.css';
 const Data = require('./CharTexts.json');
 
 const CharacterDetails = props =>{
-  if(!props.name){
-    return null;
+  let components = [];
+  for(let i=0;i<props.char.length;i++){
+    const array = props.getTxt(props.char[i])
+    if(i % 2 === 0){
+      components.push(<TextAndImg type={props.type} textStyle={props.StyleRight}   imageStyle={props.StyleLeft}  name={props.char[i]} char={array}/>)
+    }else{
+      components.push(<TextAndImg type={props.type} textStyle={props.StyleLeft}   imageStyle={props.StyleRight}  name={props.char[i]} char={array}/>)
+    }
   }
-  const array = props.getTxt(props.name)
-  return <TextAndImg type={props.type} textStyle={props.textStyle}   imageStyle={props.imageStyle}  name={props.name} char={array}/>
+  return components
 }
 
 class Characters extends Component {
@@ -29,16 +34,7 @@ class Characters extends Component {
       return (
           <div className="container-fluid">
             <CharsBanner header={this.props.type} name={this.props.chars}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleRight}  imageStyle={this.props.StyleLeft}   name={this.props.chars[0]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleLeft}   imageStyle={this.props.StyleRight}  name={this.props.chars[1]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleRight}  imageStyle={this.props.StyleLeft}   name={this.props.chars[2]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleLeft}   imageStyle={this.props.StyleRight}  name={this.props.chars[3]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleRight}  imageStyle={this.props.StyleLeft}   name={this.props.chars[4]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleLeft}   imageStyle={this.props.StyleRight}  name={this.props.chars[5]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleRight}  imageStyle={this.props.StyleLeft}   name={this.props.chars[6]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleLeft}   imageStyle={this.props.StyleRight}  name={this.props.chars[7]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleRight}  imageStyle={this.props.StyleLeft}   name={this.props.chars[8]}/>
-            <CharacterDetails getTxt={this.getTxt} type={this.props.type} textStyle={this.props.StyleLeft}   imageStyle={this.props.StyleRight}  name={this.props.chars[9]}/>
+            <CharacterDetails getTxt={this.getTxt} type={this.props.type} StyleRight={this.props.StyleRight}  StyleLeft={this.props.StyleLeft}   char={this.props.chars}/>
           </div>
       );  
     }
