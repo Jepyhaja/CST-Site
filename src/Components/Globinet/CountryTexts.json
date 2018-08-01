@@ -1,0 +1,110 @@
+{
+    "Continents":[
+        {        
+            "id" : "Tunniste jolla löydän maanosan",
+            "Countries": [
+                {
+                    "Name": "Maan nimi",
+                    "Text" : {
+                        "p1": "Ensimmäinen teksti kappale",
+                        "p2": "Toinen teksti kappale",
+                        "p3": "Kolmas teksti kappale",
+                        "p4": "Neljäs teksti kappale"
+                    }
+                }
+            ]
+        },
+        {        
+            "id" : "A-lox",
+            "Countries": [
+                {
+                    "Name": "Fatroid",
+                    "Text" : {
+                        "p1": "Big Bounded Quarrylandsin (B.B.Q.) keskellä kohoaa Fatroidin teollisuusvaltio. Fatroid tunnetaan useista tehtaistaan ja teollisuusalueistaan. Valtio saa tulonsa B-Loxiin toimitettavista tuotteista, kuten roboteista. Robotit valmistetaan Fatroidissa ja myydään sitten eteenpäin B-Loxiin, jossa erityisesti aatelissuvut muodostavat suuren ja ostokykyisen kuluttajaryhmän. Fatroidin asukkaat ovat keski- ja alaluokkaisia tehdastyöläisiä, joiden siirtolaisjuuret tulevat kaukaa B-Loxista. Fatroidissa asustavat myös Sose ja Weasel, jotka saavat tulonsa robottitehtaalla työskentelystä."
+                    }
+                },
+                {
+                    "Name": "Franada",
+                    "Text" : {
+                        "p1": "Suuren meren takana, A-Loxin mantereella sijaitsee Franadan idyllinen valtio. Franada sai alkunsa erityisesti Fraguettesta lähteneiden siirtolaisten perustettua oman tukikohtansa A-Loxin merelliselle rannikkoalueelle. Franada onkin monella tapaa hyvin samanlainen kuin Fraguette: kummankin valtion virallinen kieli on fraguette, molemmat maat myös tunnetaan rauhanomaisesta ilmapiiristään. Franadan suosituin lomakohde on Fairy Islands -saariryhmä, jossa erityisesti fraguettelaiset viettävät vapaa-aikaansa. Veeran ja Lotan kotitila, Big Jack’s Piggery Barn sekä Prinssin maatila sijaitsevat Fraguetten maaseudulla."
+                    }
+                }
+            ]
+        },
+        {        
+            "id" : "B-lox",
+            "Countries": [
+                {
+                    "Name": "Deluxerland",
+                    "Text" : {
+                        "p1": "De Luxerland on pieni, mutta sitäkin vauraampi valtio keskellä B-Loxia. Erityisesti ilvessuku on aina viihtynyt De Luxerlandin mailla – jopa siinä määrin, ettei suku ole päässyt leviämään valtion rajojen ulkopuolelle. Team Barracudan aikoihin ilvessuvusta onkin jäljellä enää Lynxtonien sukuhaara, jonka mailla käydystä robottikapinasta koko suuri sota aikoinaan sai alkunsa."
+                    }
+                },
+                {
+                    "Name": "Fraguette",
+                    "Text" : {
+                        "p1": "Vauraana ja rauhallisena maana tunnettu Fraguette sijaitsee B-Loxin luoteisrannikolla. Fraguette kuuluu B-Loxin alkuperäisvaltioihin, joilla on pitkä ja tapahtumarikas kulttuurihistoria. Erityisesti kalasuvun edustajat ovat aina tunteneet olonsa kotoisaksi Fraguetten merellisessä ympäristössä. Esimerkiksi Hell Fish Hallin kartanoa hallinnoivan Marlyn Rawpiken suku on aina asunut samoilla seuduilla Fraguetten satamakaupungissa. Fraguettelle ominaisia maisemia ovat huojuvat laventelipellot ja purjelaivojen täplittämä saaristomeri."
+                    }
+                },
+                {
+                    "Name": "Great Snoutperium",
+                    "Text" : {
+                        "p1": "Great Snoutperium on osa Great Briskish Islands:ia (G.B.I.). Valtio tunnetaan yhtenä harvoista paikoista, joissa edelleen suositaan hallitusmuotona monarkiaa. Great Snoutperiumia hallitsee Shirewood-hevossuku, jonka arvokkaat juuret ylätävät kauemmaksi kuin yhdenkään toisen hallitsijasuvun. Yksi Shirewood-suvun haaroista tunnetaan myös Horsefallien nimellä. Emmett Horsefallin suku omistaakin suuren hevostilan, Colt’s Headin, joka sijaitsee kaukana kaupungin hälinästä keskellä tuulisia nummia."
+                    }
+                },
+                {
+                    "Name": "Maneland",
+                    "Text" : {
+                        "p1": "Manelandia pidetään Great Snoutperiumin pikkusisarena. Kuten Great Snoutperiumiakin, myös Manelandia asuttavat monet hevossuvun edustajat. Maneland ja Great Snoutperium muodostavat yhdessä Great Briskish Islands -saariryhmän, jonka asukkaat on usein helppo tunnistaa vaaleasta ihonväristään ja punertavista hiuksistaan. Esimerkiksi Team Barracudan pioneerin, WR:n suku on kotoisin Manelandista."
+                    }
+                },
+                {
+                    "Name": "Råådsi",
+                    "Text" : {
+                        "p1": "Råådsi tunnetaan B-Loxin rivierana. Kuten Great Snoutperiumissa, myös naapurimaa Råådsissa valtaa pitävät kruunupäät. Råådsin aateliset kuuluvat lintusukuun, kuten moni muukin Råådsin rannikoilla asustava hienostoperhe. Maa tunnetaankin suosittuna lomapaikkana, jossa hyvätuloiset perheet viettävät aikaansa. Myös Horsefallien suku vierailee silloin tällöin Råådsin rannikolla. Siellä nimittäin asustavat myös Horsefallien pitkäaikaiset perhetutut, lintu- ja hevossukuun kuuluvat Cody ja Carina Håst-Fägel."
+                    }
+                },
+                {
+                    "Name": "Warrack",
+                    "Text" : {
+                        "p1": "Sotilasvaltio Warrack perustettiin aikoinaan eristämään B- ja D-Lox toisistaan. Warrackin sotajoukot koostuvat kaikkien B-Loxin valtioiden armeijalaitoksista. Warrackissa sijaitsee myös Warrack Military University (WMU), joka ainoana oppilaitoksena kouluttaa sotilaita erityistehtäviin. Warrack koostuu pääasiassa kasarmeista ja harjoituskentistä, joten useimmat WMU:ssa opiskelevat tai armeijalle työtä tekevät asuvat virallisesti synnyinmaassaan ja viettävät vain pitkiä koulutusjaksoja Warrackissa. Monet myös hankkivat työasunnon Warrackista, mutta viettävät vapaa-aikansa muualla. Tällä tavoin toimivat esimerkiksi Team Barracudan komentajat, Emmett ja Howard. He viettävät pitkät työjaksot asunnossaan kasarmien laitamilla, mutta matkaavat loma-aikoina Emmettin kotitilalle Great Snoutperiumiin."
+                    }
+                }
+            ]
+        },
+        {        
+            "id" : "C-lox",
+            "Countries": [
+                {
+                    "Name": "Rumba",
+                    "Text" : {
+                        "p1": "Rumban valtioon yhdistetään usein ensimmäisenä Rumban rakettiuhkana tunnettu ohjuskriisi. A-loxilaisten löydettyä C-Loxin mantereen alkuperäisasukkaat alistettiin nopeasti työskentelemään a-loxilaisten hyväksi. Rumbassa ryhdyttiin kasaamaan ja rakentemaan ohjuksia, joita oli tarkoitus kaupata Warrackiin. Valtion alkuperäisasukkaat eivät kuitenkaan suostuneet työskentelemään valta-asemassa olevilla a-loxilaisille huonoilla työehdoilla, vaan ryhtyivät kapinoimaan. Kahakat loppuivat lyhyeen, kun a-loxilaiset kukistivat alkuperäisasukkaat voimakeinoin. Niinpä Rumban alistettu kansa päätti kääntää valtaapitävien aseet itseään vastaan ja ryhtyi valmistelemaan ohjusiskua A-Loxiin. Isku saatiin kuitenkin estettyä ajoissa. Rumban rakettiuhka sai kuitenkin aikaan useita säädöksiä, jotka estävät halvan ja epäeettisen työn teettämisen C-Loxin valtioissa."
+                    }
+                },
+                {
+                    "Name": "Russeltania",
+                    "Text" : {
+                        "p1": "Russeltanian kehitysmaa muistetaan erityisesti valtiota ravistelleesta nälänhädästä. Monet russeltanialaiset pakenivat kriisiä A- ja B-Loxiin, joista he etsivät uutta alkua elämälleen. Nälänhätää pakeni aikoinaan myös Mini, joka suuntasi suoraan sotilasvaltio Warrackiin ja perusti sinne kasarmialueen suosituimman juottolan."
+                    }
+                }
+            ]
+        },
+        {        
+            "id" : "D-lox",
+            "Countries": [
+                {
+                    "Name": "Cambanana",
+                    "Text" : {
+                        "p1": "Cambananan pahamaineinen viidakko tunnetaan paikkana, jonne ainoa D-Loxin puolelle päässyt tutkija, Mr. Deadrock, aikoinaan katosi. Nykyään Cambananan metsissä tiedetään valetavan vain viimeisten jäljellejääneitten robottien, jotka Team Barracuda -erikoismission on määrä tuhota. Huhu kertoo, että robotit olisivat rakentaneet viidakon syvyyksiin oman tukikohtansa, josta käsin ne suunnittelisivat uutta hyökkäystä B-Loxiin…"
+                    }
+                },
+                {
+                    "Name": "Mangoliastan",
+                    "Text" : {
+                        "p1": "Karuista vuoristoista koostuva Mangoliastan on villiä erämaata. Mangoliastan kuuluu kansoittamattomaan D-Loxiin, jonka mailla ei tunneta sivilisaatiota. Kansantaruissa kuitenkin kerrotaan muinaisesta liskokansasta, joka olisi aikoinaan työnnetty B-Loxista Mangoliastaniin. Warrackin ansiosta kukaan ei kuitenkaan ole päässyt kulkemaan D-Loxiin ja tutkimaan manteretta kunnolla, joten huhu liskokansan olemassaolosta on jäänyt vain tarinoiden tasolle."
+                    }
+                }
+            ]
+        }
+    ]
+}
