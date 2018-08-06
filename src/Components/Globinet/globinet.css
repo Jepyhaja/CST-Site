@@ -1,0 +1,98 @@
+.banner{
+    position: relative;
+}
+.continent{
+    font-size: 3.7vw;
+    color: #303030;
+    font-weight: bold;
+}
+.anchor:hover .continent{
+    color: rgb(84, 84, 84);
+}
+.A-Lox{
+    position: absolute;
+    left: 13%;
+    top:15%;
+    height: 45%;
+    width: 24%;
+}
+.A-LoxName{
+    position: absolute;
+    top: 30%;
+    left:35%;
+}
+.B-Lox{
+    position: absolute;
+    left: 42%;
+    top:21%;
+    height: 48%;
+    width: 24%;
+}
+.B-LoxName{
+    position: absolute;
+    top: 45%;
+    left:35%;
+}
+.C-Lox{
+    position: absolute;
+    left: 20%;
+    top:64%;
+    height: 35%;
+    width: 22%;
+    
+}
+.C-LoxName{
+    position: absolute;
+    top: 30%;
+    left:30%;
+}
+.D-Lox{
+    position: absolute;
+    left: 66%;
+    top:25%;
+    height: 40%;
+    width: 24%;
+}
+.D-LoxName{
+    position: absolute;
+    top: 30%;
+    left:15%;
+}
+.hint{
+    font-size: 0.7em;
+    text-decoration-line: underline;
+    font-weight: 600;
+}
+@media only screen and (min-width: 700px) {
+    .continent{
+        font-size: 3.3vw;
+    }
+    .A-LoxName{
+        position: absolute;
+        top: 35%;
+        left:35%;
+    }
+    .D-LoxName{
+        position: absolute;
+        top: 20%;
+        left:20%;
+    }
+    .hint{
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .continent{
+        font-size: 2.5vw;
+    }
+    .C-LoxName{
+        position: absolute;
+        top: 30%;
+        left:25%;
+    }
+}
+@media only screen and (min-width: 1250px) {
+    .continent{
+        font-size: 2vw;
+    }
+}

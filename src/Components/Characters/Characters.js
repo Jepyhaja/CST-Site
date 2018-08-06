@@ -9,9 +9,9 @@ const CharacterDetails = props =>{
   for(let i=0;i<props.char.length;i++){
     const array = props.getTxt(props.char[i])
     if(i % 2 === 0){
-      components.push(<TextAndImg type={props.type} textStyle={props.StyleRight}   imageStyle={props.StyleLeft}  name={props.char[i]} char={array}/>)
+      components.push(<TextAndImg type={props.type} textStyle={props.StyleRight}   imageStyle={props.StyleLeft}  name={props.char[i]} array={array}/>)
     }else{
-      components.push(<TextAndImg type={props.type} textStyle={props.StyleLeft}   imageStyle={props.StyleRight}  name={props.char[i]} char={array}/>)
+      components.push(<TextAndImg type={props.type} textStyle={props.StyleLeft}   imageStyle={props.StyleRight}  name={props.char[i]} array={array}/>)
     }
   }
   return components

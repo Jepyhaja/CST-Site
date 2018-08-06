@@ -1,21 +1,7 @@
 {
     "Continents":[
         {        
-            "id" : "Tunniste jolla löydän maanosan",
-            "Countries": [
-                {
-                    "Name": "Maan nimi",
-                    "Text" : {
-                        "p1": "Ensimmäinen teksti kappale",
-                        "p2": "Toinen teksti kappale",
-                        "p3": "Kolmas teksti kappale",
-                        "p4": "Neljäs teksti kappale"
-                    }
-                }
-            ]
-        },
-        {        
-            "id" : "A-lox",
+            "id" : "A-Lox",
             "Countries": [
                 {
                     "Name": "Fatroid",
@@ -32,7 +18,7 @@
             ]
         },
         {        
-            "id" : "B-lox",
+            "id" : "B-Lox",
             "Countries": [
                 {
                     "Name": "Deluxerland",
@@ -73,7 +59,7 @@
             ]
         },
         {        
-            "id" : "C-lox",
+            "id" : "C-Lox",
             "Countries": [
                 {
                     "Name": "Rumba",
@@ -90,7 +76,7 @@
             ]
         },
         {        
-            "id" : "D-lox",
+            "id" : "D-Lox",
             "Countries": [
                 {
                     "Name": "Cambanana",

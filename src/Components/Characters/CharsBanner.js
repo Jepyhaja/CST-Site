@@ -17,7 +17,7 @@ class CharsBanner extends Component {
             type = 'protagonists'
         }
       return (
-        <div className="pb-3">
+        <div id="banner" className="pb-3">
             <div className="row pt-3 pb-4">
                 <div className="col-1"></div>
                 <div className="col-10"><h1>{this.props.header}</h1></div>

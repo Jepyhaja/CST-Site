@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import GlobinetBanner from './GlobinetBanner';
 import TextAndImg from '../TextAndImage/TextAndImg';
+import './globinet.css';
 const Data = require('./CountryTexts.json');
 
 const CountryDetails = props =>{
@@ -36,10 +37,10 @@ class Globinet extends Component {
         }
     }
     render() {
-        const continents = ['A-lox','B-lox','C-lox','D-lox'];
+        const continents = ['A-Lox','B-Lox','C-Lox','D-Lox'];
       return (
           <div className="container-fluid">
-            <GlobinetBanner header={'Globinet'} countries={Data.Continents}/>
+            <GlobinetBanner header={'Globinet'} data={Data.Continents}/>
             <CountryDetails getContinents={this.getContinents} type={'Globinet'} StyleRight={"order-lg-2"}  StyleLeft={"order-lg-3"} Continents={continents}/>
           </div>
       );
