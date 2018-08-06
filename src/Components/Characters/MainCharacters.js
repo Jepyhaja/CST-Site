@@ -8,7 +8,7 @@ class MainCharacters extends Component {
         "Herhilainen",
         "Veera",
         "Prinssi",
-        "Sose-tonttu",
+        "Sose-Tonttu",
         "Taalatasku",
         "Tuhkis",  
         "Tyger",
