@@ -6,7 +6,7 @@ import {
 const ContinentLinks = props =>{
   let components = [];
   for(let i=0;i<props.Data.length;i++){
-    components.push(<Link className={props.Data[i].id+" anchor"} to={'/world/globinet#'+props.Data[i].id}><h2 className={props.Data[i].id+"Name continent"}>{props.Data[i].id}</h2></Link>)
+    components.push(<Link key={i} className={props.Data[i].id+" anchor"} to={'/world/globinet#'+props.Data[i].id}><h2 className={props.Data[i].id+"Name continent"}>{props.Data[i].id}</h2></Link>)
   }
   return components
 }
