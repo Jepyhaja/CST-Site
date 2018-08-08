@@ -7,7 +7,15 @@
                     "Name": "Fatroid",
                     "Text" : {
                         "p1": "Big Bounded Quarrylandsin (B.B.Q.) keskellä kohoaa Fatroidin teollisuusvaltio. Fatroid tunnetaan useista tehtaistaan ja teollisuusalueistaan. Valtio saa tulonsa B-Loxiin toimitettavista tuotteista, kuten roboteista. Robotit valmistetaan Fatroidissa ja myydään sitten eteenpäin B-Loxiin, jossa erityisesti aatelissuvut muodostavat suuren ja ostokykyisen kuluttajaryhmän. Fatroidin asukkaat ovat keski- ja alaluokkaisia tehdastyöläisiä, joiden siirtolaisjuuret tulevat kaukaa B-Loxista. Fatroidissa asustavat myös Sose ja Weasel, jotka saavat tulonsa robottitehtaalla työskentelystä."
-                    }
+                    },
+                    "ImportantPlaces": [
+                        {
+                            "Name":"Auto-Jesari",
+                            "Text": {
+                                "p1": "Auto-Jesari on Weaselin ja Soseen perheen, Jonesien, omistama autokorjaamo. Auto-Jesari sijaitsee keskellä pahamaineista Fatroidin osavaltiota. Fatroid kuuluu B.B.Q.:n teollistuneeseen sisämaahan, joten kaupungin siluetti muodostuu lähinnä tehtaista ja varastorakennuksista. Weasel ja Sose asuvat Auto-Jesarin takahuoneessa, mutta eivät enää työskentele perheyritykselle. Korjaamoa pyörittivät aiemmin Jonesin perheen vanhemmat, mutta äidin menehdyttyä yritystä jäi luotsaamaan vain Weaselin ja Soseen vanha isä."
+                            }
+                        }
+                    ]
                 },
                 {
                     "Name": "Franada",

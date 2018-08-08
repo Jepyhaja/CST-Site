@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import GlobinetBanner from './GlobinetBanner';
-import TextAndImg from '../TextAndImage/TextAndImg';
+import TxtImgBtn from '../TxtImgBtn/TxtImgBtn';
 import './globinet.css';
 const Data = require('./CountryTexts.json');
 
@@ -11,9 +11,9 @@ const CountryDetails = props =>{
         const Continents = props.getContinents(props.Continents[i]);
         for(let j=0;j<Continents.Countries.length;j++){
                 if(j % 2 === 0){
-                    components.push(<TextAndImg key={j} type={props.type} textStyle={props.StyleRight}   imageStyle={props.StyleLeft}  name={Continents.Countries[j].Name} array={Continents.Countries[j]}/>)
+                    components.push(<TxtImgBtn key={j} type={props.type} textStyle={props.StyleRight}   imageStyle={props.StyleLeft}  name={Continents.Countries[j].Name} array={Continents.Countries[j]}/>)
                 }else{
-                    components.push(<TextAndImg key={j} type={props.type} textStyle={props.StyleLeft}   imageStyle={props.StyleRight}  name={Continents.Countries[j].Name} array={Continents.Countries[j]}/>)
+                    components.push(<TxtImgBtn key={j} type={props.type} textStyle={props.StyleLeft}   imageStyle={props.StyleRight}  name={Continents.Countries[j].Name} array={Continents.Countries[j]}/>)
                 }
         }
         wrappedComponents.push(

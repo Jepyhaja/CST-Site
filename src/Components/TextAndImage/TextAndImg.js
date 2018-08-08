@@ -4,7 +4,7 @@ const HeadAndParagraphs = props =>{
     const firstStyle = 'chardesc';
     const style = 'paragraph';
     let header, p1, p2, p3, p4;
-    if(props.type === 'Tärkeät henkilöt' || props.type === 'Globinet'){
+    if(props.type === 'Tärkeät henkilöt'){
         header = <h2>{props.array.Name}</h2>
     }
     if(props.array.Text.p1){
