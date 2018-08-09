@@ -11,9 +11,9 @@ const CountryDetails = props =>{
         const Continents = props.getContinents(props.Continents[i]);
         for(let j=0;j<Continents.Countries.length;j++){
                 if(j % 2 === 0){
-                    components.push(<TxtImgBtn key={j} type={props.type} textStyle={props.StyleRight}   imageStyle={props.StyleLeft}  name={Continents.Countries[j].Name} array={Continents.Countries[j]}/>)
+                    components.push(<TxtImgBtn key={j} type={'Globinet'} textStyle={props.StyleRight}   imageStyle={props.StyleLeft}  name={Continents.Countries[j].Name} array={Continents.Countries[j]}/>)
                 }else{
-                    components.push(<TxtImgBtn key={j} type={props.type} textStyle={props.StyleLeft}   imageStyle={props.StyleRight}  name={Continents.Countries[j].Name} array={Continents.Countries[j]}/>)
+                    components.push(<TxtImgBtn key={j} type={'Globinet'} textStyle={props.StyleLeft}   imageStyle={props.StyleRight}  name={Continents.Countries[j].Name} array={Continents.Countries[j]}/>)
                 }
         }
         wrappedComponents.push(
@@ -28,6 +28,9 @@ const CountryDetails = props =>{
   }
 
 class Globinet extends Component {
+    componentDidMount(){
+        window.scrollTo(0,0);
+      }
     getContinents = (continent) => {
         var ContinentArray = Data.Continents;
         for(let i=0;i<ContinentArray.length; i++){

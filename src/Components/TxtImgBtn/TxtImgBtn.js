@@ -17,10 +17,15 @@ const ImportantPlacesButtons = props =>{
         let Component = [];
         let ToggleComponent = [];
         for(let i=0;i<props.array.length;i++){
-            Component.push(<button key={i} className="btn btn-secondary mt-4" onClick={props.popUp}>{props.array[i].Name}</button>);
-            ToggleComponent.push(<DisplayPlaces key={i} status={props.status} name={props.array[i].Name} ClosePopUp={props.ClosePopUp} content={props.array[i].Text}/>)
+            if(i>0){
+                Component.push(<button key={i} className="btn btn-secondary mt-4" onClick={props.popUp1}>{props.array[i].Name}</button>);
+                ToggleComponent.push(<DisplayPlaces key={i} status1={props.status1} name={props.array[i].Name} ClosePopUp={props.ClosePopUp1} content={props.array[i]} location={props.location}/>)
+            }else{
+                Component.push(<button key={i} className="btn btn-secondary mt-4" onClick={props.popUp}>{props.array[i].Name}</button>);
+                ToggleComponent.push(<DisplayPlaces key={i} status={props.status} name={props.array[i].Name} ClosePopUp={props.ClosePopUp} content={props.array[i]} location={props.location}/>)
+            }
         }
-        return  <div className="col-md-6 order-lg-4">
+        return  <div className="col-md-6 order-lg-4 pb-3">
                     {ToggleComponent}
                     <h3>Tärkeät paikat</h3>
                     {Component}
@@ -31,7 +36,7 @@ const ImportantPlacesButtons = props =>{
 class TxtImgBtn extends Component {
     state = {
         showPlace: 'false',
-        dim: ''
+        showPlace1: 'false',
     }
     scrollToTop = () =>{
         this.ClosePopUp();
@@ -52,6 +57,16 @@ class TxtImgBtn extends Component {
             showPlace: 'false',
         });
     }
+    popUp1 = () =>{
+        this.setState({
+            showPlace1: 'true',
+        });
+    }
+    ClosePopUp1 = () =>{
+        this.setState({
+            showPlace1: 'false',
+        });
+    }
 
     render() {
 
@@ -63,7 +78,7 @@ class TxtImgBtn extends Component {
             <div id={this.props.name} className="row pt-5 mb-5 ">
                 <div className="col-12"><h2>{this.props.array.Name}</h2></div>
                     <div className="col-lg-1 order-1"></div>
-                    <ImportantPlacesButtons array={this.props.array.ImportantPlaces} popUp={this.popUp} ClosePopUp={this.ClosePopUp} status={this.state.showPlace}/>
+                    <ImportantPlacesButtons array={this.props.array.ImportantPlaces} popUp={this.popUp} ClosePopUp={this.ClosePopUp} popUp1={this.popUp1} ClosePopUp1={this.ClosePopUp1} status={this.state.showPlace} status1={this.state.showPlace1} location={'Tärkeät paikat'}/>
                     <div className={"col-12 col-md-6 col-lg-4 "+ this.props.imageStyle}>
                         <img className="img-fluid country" src={"/Images/"+this.props.type+"/"+this.props.name+".png"} alt={this.props.name}/>
                     </div>

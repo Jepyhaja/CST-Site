@@ -27,7 +27,6 @@ class GlobinetBanner extends Component {
     window.onhashchange = scrollToAnchor;
   }
     render() {
-        console.log(this.props.data)
         const data = this.props.data
       return (
         <div id="banner">

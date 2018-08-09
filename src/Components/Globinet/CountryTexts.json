@@ -13,6 +13,9 @@
                             "Name":"Auto-Jesari",
                             "Text": {
                                 "p1": "Auto-Jesari on Weaselin ja Soseen perheen, Jonesien, omistama autokorjaamo. Auto-Jesari sijaitsee keskellä pahamaineista Fatroidin osavaltiota. Fatroid kuuluu B.B.Q.:n teollistuneeseen sisämaahan, joten kaupungin siluetti muodostuu lähinnä tehtaista ja varastorakennuksista. Weasel ja Sose asuvat Auto-Jesarin takahuoneessa, mutta eivät enää työskentele perheyritykselle. Korjaamoa pyörittivät aiemmin Jonesin perheen vanhemmat, mutta äidin menehdyttyä yritystä jäi luotsaamaan vain Weaselin ja Soseen vanha isä."
+                            },
+                            "Img":{
+                                "img1": "auto-jesari.png"
                             }
                         }
                     ]
@@ -21,7 +24,18 @@
                     "Name": "Franada",
                     "Text" : {
                         "p1": "Suuren meren takana, A-Loxin mantereella sijaitsee Franadan idyllinen valtio. Franada sai alkunsa erityisesti Fraguettesta lähteneiden siirtolaisten perustettua oman tukikohtansa A-Loxin merelliselle rannikkoalueelle. Franada onkin monella tapaa hyvin samanlainen kuin Fraguette: kummankin valtion virallinen kieli on fraguette, molemmat maat myös tunnetaan rauhanomaisesta ilmapiiristään. Franadan suosituin lomakohde on Fairy Islands -saariryhmä, jossa erityisesti fraguettelaiset viettävät vapaa-aikaansa. Veeran ja Lotan kotitila, Big Jack’s Piggery Barn sekä Prinssin maatila sijaitsevat Fraguetten maaseudulla."
-                    }
+                    },
+                    "ImportantPlaces": [
+                        {
+                            "Name":"Big Jack’s Piggery Barn",
+                            "Text": {
+                                "p1": "Big Jack’s Piggery Barn on Veeran ja Lotan kotitila. Vanha sikatila sijaitsee Franadan maaseudulla. Tilaan kuuluu paljon maata ja metsää, joten BigJackit saavat elellä kotonaan ilman naapureita tai kaupungin hälinää. Muutaman kilometrin päässä Big Jack’s Piggery Barnista sijaitsee kuitenkin Prinssin kotitila. Veera ja Lotta viettävätkin usein aikaansa Prinssin luona."
+                            },
+                            "Img": {
+                                "img1": "bigjack.png"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -39,6 +53,9 @@
                             "Text": {
                                 "p1": "Lynxvale Residence sijaitsee keskellä vaurasta De Luxerlandia. Lynxvale Residence -tila on tunnettu eristäytyneisyydestään ja tarkoin valituista vieraistaan. Tilaa hallinnoi Lynxtonien sammumaan päin oleva ilves-suku, jonka viimeisinä edustajina jäljellä ovat enää nuoret Adrian ja Tristan Lynxton.",
                                 "p2": "Lynxvale Residence muistetaan surullisenkuuluisasta historiastaan robottisodan aloittaneen kahakan tapahtumapaikkana. Lynxtonien hankkimat Servo-botit ajautuivat ilmiriitaan ilkeiden isäntiensä kanssa, mikä johti veriseen yhteenottoon ihmisten ja koneiden välillä. Välikohtauksessa henkensä menettivät useat Lynxtonit, joten lopulta jäljelle jäivät vain suvun kuopus Adrian sekä isoveljensä Tristan. Kahakan jälkimainingeissa syttyneen robottisodan vuoksi Tristan kuitenkin joutui astumaan asepalvelukseen. Vain reilun vuoden jälkeen tapahtumista myös Adrian löysi itsensä armeijan harmaista, mutta ilman isoveljeään. Veljensä julmaa kohtaloa kostamaan lähtenyt Adrian ilmoittautui Team Barracuda -erikoismissioon – hyökkäykseen, jonka tarkoitus on kukistaa vihoviimeiset, Cambananan viidakon syvyyksiin paenneet robotit."
+                            },
+                            "Img": {
+                                "img1": "lynxvale.png"
                             }
                         }
                     ]
@@ -47,13 +64,39 @@
                     "Name": "Fraguette",
                     "Text" : {
                         "p1": "Vauraana ja rauhallisena maana tunnettu Fraguette sijaitsee B-Loxin luoteisrannikolla. Fraguette kuuluu B-Loxin alkuperäisvaltioihin, joilla on pitkä ja tapahtumarikas kulttuurihistoria. Erityisesti kalasuvun edustajat ovat aina tunteneet olonsa kotoisaksi Fraguetten merellisessä ympäristössä. Esimerkiksi Hell Fish Hallin kartanoa hallinnoivan Marlyn Rawpiken suku on aina asunut samoilla seuduilla Fraguetten satamakaupungissa. Fraguettelle ominaisia maisemia ovat huojuvat laventelipellot ja purjelaivojen täplittämä saaristomeri."
-                    }
+                    },
+                    "ImportantPlaces": [
+                        {
+                            "Name":"Hell Fish Hall",
+                            "Text": {
+                                "p1": "Hell Fish Hall on Rawpike-kalasuvun hallussa oleva kartano, joka on nimetty tiluksilla sijaitsevan helvetinkala-lammikon mukaan. Hell Fish Hall kohoaa utuisesta metsänlaidasta, ja torni-ikkunat sekä juhlasalit avautuvat suoraan kylän puolelle. Kartanossa on tilaa useammalle vakituiselle asukkaalle sekä lukuisia salakäytäviä, joiden sijainnista ei omistaja itsekään ole täysin perillä.",
+                                "p2": "Tällä hetkellä Hell Fish Hallia hallinnoi kylmäverisenä tunnetun Rawpike-suvun perillinen, Marlyn. Viileänä liikemaailman vaikuttajana pidetyn Marlynin lisäksi kartanossa asustavat Jessie ja Jen, kissasukuiset siskokset. Hell Fish Hallin vakituisena hovimestarina häärii James, hiljainen mutta hieman mysteerinen mies. Kartanon tiluksilta löytyvässä puutarhamajassa sen sijaan loisii Mimmi, talon puutarhurinakin toimiva jokapaikanhöylä. Lähes vakiokalustoksi voidaan lukea myös nuori hevos-aatelissuvun edustaja, Everett Horsefall. Marlynillä ja Mr. Horsefallilla on jatkuva pyrkimys yhdistää arvokkaiden sukujensa osaaminen kaupan alalla. Kannattavaa liikeideaa tai projektia ei kuitenkaan jatkuvasta sopimusten pyörittelystä huolimatta tunnu syntyvän…",
+                                "p3": "Hell Fish Hall sijaitsee aurinkoisen Fraguetten rannikolla. Tonttiin kuuluu paljon rantaviivaa ja venepaikka, jossa Marlyn pitää Dutchess-kilpapurjevenettään."
+                            },
+                            "Img": {
+                                "img1": "hellfish1.png",
+                                "img2": "hellfish2.png"
+                            }
+                        }
+                    ]
                 },
                 {
                     "Name": "Great Snoutperium",
                     "Text" : {
                         "p1": "Great Snoutperium on osa Great Briskish Islands:ia (G.B.I.). Valtio tunnetaan yhtenä harvoista paikoista, joissa edelleen suositaan hallitusmuotona monarkiaa. Great Snoutperiumia hallitsee Shirewood-hevossuku, jonka arvokkaat juuret ylätävät kauemmaksi kuin yhdenkään toisen hallitsijasuvun. Yksi Shirewood-suvun haaroista tunnetaan myös Horsefallien nimellä. Emmett Horsefallin suku omistaakin suuren hevostilan, Colt’s Headin, joka sijaitsee kaukana kaupungin hälinästä keskellä tuulisia nummia."
-                    }
+                    },
+                    "ImportantPlaces": [
+                        {
+                            "Name":"Colt's Head",
+                            "Text": {
+                                "p1": "Colt’s Head on Horsefall-aatelissuvun omistuksessa oleva vanha hevostila. Colt’s Head on massiivinen, lämpimiä sävyjä ja raukeaa tunnelmaa huokuva herraskartano Great Snoutperiumin rauhallisella maaseudulla. Kartanon tilukset ulottuvat kauas tuulisille nummille, joiden villinä kukkivat ruusut huojuvat harjujen rinteillä.",
+                                "p2": "Colt’s Head on Team Barracudan päävastaavan, Emmett Horsefallin kotitila. Colt’s Headia vakituisesti asuttaa kuitenkin Emmettin isoveli, Emmanuel. Kartanon asukkaita ovat myös Emmanuelin vaimo ja poika, Carina ja Everett. Colt’s Head tunnetaan kiireettömästä ilmapiiristään, joten se on myös Horsefallien tuttujen suosima lomanviettopaikka. Usein vanhan huvilan nummilla ratsastavatkin Emmettin nykyinen rakas Howard Royale-Hillington sekä lapsuudenystävä Cody Håst-Fägel…"
+                            },
+                            "Img": {
+                                "img1": "colts.png"
+                            }
+                        }
+                    ]
                 },
                 {
                     "Name": "Maneland",
@@ -71,7 +114,34 @@
                     "Name": "Warrack",
                     "Text" : {
                         "p1": "Sotilasvaltio Warrack perustettiin aikoinaan eristämään B- ja D-Lox toisistaan. Warrackin sotajoukot koostuvat kaikkien B-Loxin valtioiden armeijalaitoksista. Warrackissa sijaitsee myös Warrack Military University (WMU), joka ainoana oppilaitoksena kouluttaa sotilaita erityistehtäviin. Warrack koostuu pääasiassa kasarmeista ja harjoituskentistä, joten useimmat WMU:ssa opiskelevat tai armeijalle työtä tekevät asuvat virallisesti synnyinmaassaan ja viettävät vain pitkiä koulutusjaksoja Warrackissa. Monet myös hankkivat työasunnon Warrackista, mutta viettävät vapaa-aikansa muualla. Tällä tavoin toimivat esimerkiksi Team Barracudan komentajat, Emmett ja Howard. He viettävät pitkät työjaksot asunnossaan kasarmien laitamilla, mutta matkaavat loma-aikoina Emmettin kotitilalle Great Snoutperiumiin."
-                    }
+                    },
+                    "ImportantPlaces": [
+                        {
+                            "Name":"Warrack Military University",
+                            "Text": {
+                                "p1": "Warrack Military University (WMU) sijaitsee sotilasvaltio Warrackissa. WMU tunnetaan huipputason koululaitoksena, jossa koulutetaan maanpuolustusalan ehdoton kärkiryhmä. WMU sisältää niin maa-, meri- kuin ilmavoimienkin koulutushaarat. WMU on myös ainoa korkeakoulu, jossa on mahdollisuus kouluttautua erityisjoukkojen osaksi tai ohjaajaksi.",
+                                "p2": "Sekä Howard että Emmett ovat WMU:n kasvatteja. Emmett kuuluu maajoukkojen erityislinjaan ja suorittaa Team Barracuda -mission aikana komennusta cattainina. Muutamaa vuotta myöhemmin opintonsa aloittanut Howard suorittaa Team Barracudan aikana kolmatta vuottaan beetenanttina.",
+                                "p3": "WMU:n opiskelijat tunnistaa heidän käyttämistään värikoodatuista univormuista. Tavallisten työvaatteiden lisäksi WMU:lla on muitakin tunnusomaisia vaatteita. Esimerkiksi Fairy Islandilla järjestetyn kesäkurssin käyneet opiskelijat saavat käytettäväkseen tunnistettavat college-paidat: koulutettavat opiskelijat laventelinväriset, tutorina toimineet punaiset…"
+                            },
+                            "Img": {
+                                "img1": "wmu.png",
+                                "img2": "wmu1.png"
+                            }
+                        },
+                        {
+                            "Name":"Minin Baari",
+                            "Text": {
+                                "p1": "Minin Baari sijaitsee keskellä Warrackin varuskunnan kasarmeja. Baarin omistaa Mini, Russeltanian nälänhätää pakoon lähtenyt yrittäjä. Minin baari on kasarmien sosiaalisen elämän keskus ja kaikkien suosikkipaikka. Baarin vastaanottavainen ja turvallinen ilmapiiri toimii monelle turvasatamana varuskunnan tiukan kurin keskellä.",
+                                "p2": "Minin baari on sisustettu värikkäillä kuvioilla ja pirteillä yksityiskohdilla. Baarista löytyy niin sohvaryhmiä kuin verhoilla eristetty riippumattonurkkakin. Tiskinsä nurkalla Mini pitää aina hedelmäkulhoa ja pähkinöitä, jotta sotaharjoitusten uuvuttamat varuskuntalaiset voisivat istahtaa kiireettömästi alas juomaan, syömään ja hankkimaan uutta energiaa seuraavaankin päivään.",
+                                "p3": "Baarin takaosa koostuu Minin asuintiloista. Asunnon toinen makuuhuone kuuluu Howardille, jonka Mini adoptoi tämän ollessa vielä lapsi. Team Barracuda - mission alkaessa Howard on jo ehtinyt asua kauan omassa asunnossaan yhdessä Emmettin kanssa, mutta viettää yhä edelleen silti silloin tällöin yönsä vanhassa kodissaan. "
+                            },
+                            "Img": {
+                                "img1": "minin_baari.png",
+                                "img2": "minin_baari2.png",
+                                "img3": "minin_baari3.png"
+                            }
+                        }
+                    ]
                 }
             ]
         },
