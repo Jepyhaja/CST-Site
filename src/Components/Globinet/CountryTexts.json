@@ -32,7 +32,16 @@
                     "Name": "Deluxerland",
                     "Text" : {
                         "p1": "De Luxerland on pieni, mutta sitäkin vauraampi valtio keskellä B-Loxia. Erityisesti ilvessuku on aina viihtynyt De Luxerlandin mailla – jopa siinä määrin, ettei suku ole päässyt leviämään valtion rajojen ulkopuolelle. Team Barracudan aikoihin ilvessuvusta onkin jäljellä enää Lynxtonien sukuhaara, jonka mailla käydystä robottikapinasta koko suuri sota aikoinaan sai alkunsa."
-                    }
+                    },
+                    "ImportantPlaces": [
+                        {
+                            "Name":"Lynxvale Residence",
+                            "Text": {
+                                "p1": "Lynxvale Residence sijaitsee keskellä vaurasta De Luxerlandia. Lynxvale Residence -tila on tunnettu eristäytyneisyydestään ja tarkoin valituista vieraistaan. Tilaa hallinnoi Lynxtonien sammumaan päin oleva ilves-suku, jonka viimeisinä edustajina jäljellä ovat enää nuoret Adrian ja Tristan Lynxton.",
+                                "p2": "Lynxvale Residence muistetaan surullisenkuuluisasta historiastaan robottisodan aloittaneen kahakan tapahtumapaikkana. Lynxtonien hankkimat Servo-botit ajautuivat ilmiriitaan ilkeiden isäntiensä kanssa, mikä johti veriseen yhteenottoon ihmisten ja koneiden välillä. Välikohtauksessa henkensä menettivät useat Lynxtonit, joten lopulta jäljelle jäivät vain suvun kuopus Adrian sekä isoveljensä Tristan. Kahakan jälkimainingeissa syttyneen robottisodan vuoksi Tristan kuitenkin joutui astumaan asepalvelukseen. Vain reilun vuoden jälkeen tapahtumista myös Adrian löysi itsensä armeijan harmaista, mutta ilman isoveljeään. Veljensä julmaa kohtaloa kostamaan lähtenyt Adrian ilmoittautui Team Barracuda -erikoismissioon – hyökkäykseen, jonka tarkoitus on kukistaa vihoviimeiset, Cambananan viidakon syvyyksiin paenneet robotit."
+                            }
+                        }
+                    ]
                 },
                 {
                     "Name": "Fraguette",

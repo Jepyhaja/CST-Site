@@ -18,9 +18,9 @@ const ImportantPlacesButtons = props =>{
         let ToggleComponent = [];
         for(let i=0;i<props.array.length;i++){
             Component.push(<button key={i} className="btn btn-secondary mt-4" onClick={props.popUp}>{props.array[i].Name}</button>);
-            ToggleComponent.push(<DisplayPlaces key={i} status={props.status} name={props.array[i].Name} ClosePopUp={props.ClosePopUp} content={props.array[i].Text.p1}/>)
+            ToggleComponent.push(<DisplayPlaces key={i} status={props.status} name={props.array[i].Name} ClosePopUp={props.ClosePopUp} content={props.array[i].Text}/>)
         }
-        return  <div className="col-md-6 order-lg-4 d-md-block d-none">
+        return  <div className="col-md-6 order-lg-4">
                     {ToggleComponent}
                     <h3>Tärkeät paikat</h3>
                     {Component}
