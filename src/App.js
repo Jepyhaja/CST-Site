@@ -8,6 +8,7 @@ import NotFound from './Components/Error/NotFound';
 import MainCharacters from './Components/Characters/MainCharacters';
 import SupportCharacters from './Components/Characters/SupportCharacters';
 import Globinet from './Components/Globinet/Globinet';
+import Society from './Components/Society/Society';
 import {
   Route,
   Switch
@@ -25,6 +26,7 @@ class App extends Component {
               <Route path="/fanmail" component={FanMail}/>
               <Route path="/comic" component={Comic}/>
               <Route path="/world/globinet" component={Globinet}/>
+              <Route path="/world/society" component={Society}/>
               <Route path="/chars/protagonists" component={MainCharacters}/>
               <Route path="/chars/supports" component={SupportCharacters}/>
               <Route component={NotFound}/>

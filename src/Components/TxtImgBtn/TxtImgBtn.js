@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import DisplayPlaces from '../DisplayPlaces/DisplayPlaces';
+import DisplayPlaces from '../Displays/DisplayPlaces';
 
 const Paragraphs = props =>{
     const style = 'paragraph';

@@ -1,0 +1,35 @@
+{
+    "Family": [
+        {
+            "name": "Hevossuvut",
+            "p1": "Hevossukujen juuret ulottuvat pitkälle Great Snoutperiumin historiaan. Maata ovat aina hallinneet Shirewood-hevossuvun perilliset. Heidän lähisukulaisiinsa kuuluvat myös Horsefallit, joiden perustama ja omistama Royal Riding Academy on aatelisten virallinen ratsastusseura.",
+            "p2": "Kuten monen muun aatelissuvun, myös hevossukujen geenit ovat hyvin herkät. Tarkkaan vaalittuja ja sukujen edustajille tyypillisiä ominaispiirteitä ovat punertavat hiukset sekä maidonvalkea iho. Luonteeltaan hevossukujen edustajat ovat lauhkeita ja maltillisia. He omaavat hyvän hahmotuskyvyn ja ovat usein luonteeltaan lempeitä johtajaihmisiä. He eivät ole yhtä ulospäinsuuntautuneita ja seurallisia kuin esimerkiksi lintusukujen edustajat, mutta ottavat silti mielellään oman tilansa ja hallitsevat tilanteita omalla rauhallisella auktoriteetillaan.",
+            "p3": "Emmett Horsefall perheineen ovat tyypillisiä hevossuvun edustajia. He ovat lähisukua valtaapitäville, joten heidän omistuksessaan on myös paljon maallista omaisuutta. Horsefallien kotitila, Colt’s Head, onkin tyypillinen aateliskartano laajoine tiluksineen ja hyvinhoidettuine hevostalleineen."
+        },
+        {
+            "name": "Ilvessuvut",
+            "p1": "Kissasukujen edustajat ovat usein tummahiuksisia ja ihonväriltään erittäin vaaleita. Kissasukuja oli aikoinaan paljon, mutta kissaihmisille tyypillisen valikoivan maun vuoksi useat sukuhaarat kuihtuivat ja katosivat kokonaan. Viimeisiä puhtaita kissasukuja edustaa Lynxtonien ilvessuku, joka sekin on hiipumaan päin.",
+            "p2": "Kissasuvuille tyypillistä on omapäisyys ja omanarvontuntoisuus. Suvun edustajat ovat usein erittäin itsetietoisia, eivätkä he mielellään sosialisoi muiden kuin aatelisten kanssa. Kissaihmiset eivät pidä esiintymisestä tai seuraleikeistä, heitä viihdyttävät vain omat onnistumiset ja suvun kunnia. Monet kissasukuiset ovat kuitenkin sisukkaita ja terävä-älyisiä. He ovat pelottavia juonittelijoita, jotka ottavat oman paikkansa vaikka väkisin.",
+            "p3": "Adrian Lynxton edustaa kaikkea sitä, mitä ilvessuvusta on jäljellä. Adrianilla on kissasuvun edustajille tyypillinen määrätietoinen luonne ja kärkäs kieli. Vaikka kissasuvut ovat perinteisesti kaveeranneet vain keskenään, ei Adrianin auta kuin laajentaa sosiaalisia piirejään – kissasukujen kadottua ja muiden aatelisten ollessa vähissä myös Lynxtonienkin on vihdoin astuttava kuplansa ulkopuolelle ja tavattava muiden sosiaaliluokkien edustajia."
+        },
+        {
+            "name": "Kalasuvut",
+            "p1": "Kalaihmiset ovat hiljaisia ja vetäytyviä – ainakin silloin, kun eivät kovaäänisesti hae omaa tilaansa. Heidät tunnetaan raivokkaasta temperamentistaan ja kunniantunnostaan. Kalaihmiset ovatkin usein päämäärätietoisia ja tehokkaita suorittajia, jotka toimivat mieluummin yksin kuin yhdessä. He eivät juuri piittaa muista aatelisista tai ympärillään olevista ihmisistä. Usein kalaihmiset päästävätkin lähipiiriinsä vain kourallisen ihmisiä, jotka hekin jollain lailla joutuvat jatkuvasti taistelemaan paikastaan.",
+            "p2": "Kalasuvut ovat kautta aikojen viihtyneet Fraguetten merellisessä ympäristössä. Kalaihmisten henkilökohtainen reviiri on suuri, joten usein he myös asuvat mieluusti kaukana kaupungeista ja muusta asutuksesta. Vaikeastilähestyttävästä persoonastaan huolimatta kalaihmiset ovat menestyviä ja suosittuja henkilöitä, joiden lähipiiriin moni puoliaatelinen ja aatelinenkin toivoo joskus pääsevänsä.",
+            "p3": "Kalaihmisten hiukset ovat tyypillisesti kellertävän vaaleat. Heillä on myös tavanomaisesti tummanrukseat silmät ja tummat, tuimat kulmat. Marlyn Rawpike edustaa kalasuvun nuorta polvea. Hän ei piittaa ihmisten miellyttämisestä tai ystävyyssuhteiden solmimisesta. Marlynille tärkeää ovat eteenpäin kulkeminen ja kaikenlaiset uudet saavutukset. Kalaihmiset ovatkin usein väsymättömiä työskentelijöitä, jotka säälimättä raivaavat tieltään kaikki, ketkä eivät heitä miellytä."
+        },
+        {
+            "name": "Lintusuvut",
+            "p1": "Lintusuvun edustajat ovat erittäin pidettyjä ihmisiä. He ovat tyypillisesti ulospäinsuuntautuneita ja sosiaalisesti lahjakkaita persoonia, jollaisen jokainen tahtoisi omaan ystäväpiiriinsä. Lintuihmiset ovat empaattisia ja monella tapaa herkkiä – he kokevat niin surun, pelon kuin innostuksenkin tunteet vahvoina ja aitoina. Lintuihmiset ovat usein vaaleahiuksisia ja sinisilmäisiä.",
+            "p2": "Lintusukujen juuret löytyvät Råådsin rannikolta. Vielä tänäpäivänäkin moni lintuaatelinen asustaa Råådsin idyllisellä rivieralla, joskin talveksi he usein muuttavat kesäasunnoilleen lämpimimmille maille. Luonteeltaan lintuihmiset ovat ekstroverttejä ja kunnianhimoisia. He tuntevat olonsa luontevaksi suurissa ihmisparvissa ja hakeutuvat mielellään mitä erilaisimpien tuttavuuksien seuraan. Lintuihmiset tunnetaan myös rauhantahtoisuudestaan ja lämminsydämisyydestään.",
+            "p3": "Cody ja Carina Håst-Fägel ovat tunnistettavia lintuihmisiä, vaikka ovatkin vain puoliverisiä. Varsinkin Cody on lintusuvuille tyypillisen ulospäinsuuntautunut ja herkästi innostuva. Hän toimii usein hetken mielijohteesta, mutta osaa pysähtyä myös vaalimaan yksittäisiä arvokkaita hetkiä."
+        },
+        {
+            "name": "Liskosuvut",
+            "p1": "Liskoihmisistä tiedetään varsin vähän. Heitä pidettiin pitkään vain taruolentoina, sillä viimeisimmät havainnot liskoihmisistä sijoittuivat lähes sadan vuoden päähän menneisyyteen. Liskosukujen historiasta tiedetäänkin vain sen murheellinen puoli: sukujen viimeisetkin edustajat työnnettiin kauas Cambananan vuoristoon, jonne he saivat jäädä kuolemaan. Mukautumiskykyisinä selviytyjinä liskoihmiset kuitenkin sopeutuivat uuteen ympäristöönsä ja perustivat ikioman sivilisaationsa vuoriston uumeniin.",
+            "p2": "On epäselvää, miksi liskokansa aikoinaan pakotettiin vetäytymään Cambananaan. Taru kertoo, että muut aatelissuvut pelkäsivät liskoihmisten sopeutumiskykyä ja monilukuisuutta. Muut aateliset mahdollisesti näkivät liskoihmiset uhkana oman valtansa jatkuvuudelle, joten runsaslukuinen liskoaatelisto hävitettiin kokonaan B-Loxista.",
+            "p3": "Liskoihmiset eivät kuitenkaan tyytyneet kohtaloonsa. Pitkään kansa eli omissa oloissaan vuoristossa, mutta sodan sytyttyä ja robottien kuljettua myös Cambananan halki liskoihmiset heräsivät hiljaiselostaan. Näinollen Tuhkis lähetettiin ottamaan selvää sivistyneen maailman menosta.",
+            "p4": "Liskoihmiset ovat tavallisesti violettisilmäisiä ja ihonväriltään hieman valtaväestöä tummempia. Luonteeltaan he ovat lämminhenkisiä ja uteliaita. Liskoihmiset ovat myös hyvin älykkäitä ja he omaksuvat uudet asiat nopeasti."
+        }
+    ]
+}
