@@ -11,3 +11,10 @@ a:hover{
 body{
     background-color: #f5f5f5 !important;
 }
+.clickable{
+    filter: grayscale(40%);
+    cursor: pointer;
+}
+.clickable:hover{
+    filter: grayscale(0);
+}

@@ -67,7 +67,6 @@ class Nav extends Component {
                         <NavDropdown name="Maailma" loc="/world">
                             <Link className="dropdown-item" to="/world/globinet">Globinet</Link>
                             <Link className="dropdown-item" to="/world/society">Yhteiskunta</Link>
-                            <Link className="dropdown-item" to="/world/locations">Keskeiset paikat</Link>
                         </NavDropdown>
                         <NavDropdown name="Hahmot" loc="/chars">
                             <Link className="dropdown-item" to="/chars/protagonists">Päähenkilöt</Link>

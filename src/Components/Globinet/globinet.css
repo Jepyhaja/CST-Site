@@ -3,11 +3,11 @@
 }
 .continent{
     font-size: 3.7vw;
-    color: #303030;
+    color: #444444;
     font-weight: bold;
 }
 .anchor:hover .continent{
-    color: rgb(84, 84, 84);
+    color: rgb(214, 214, 214);
 }
 .A-Lox{
     position: absolute;
