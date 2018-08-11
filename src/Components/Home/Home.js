@@ -3,6 +3,7 @@ import {
   Link
 } from 'react-router-dom';
 import './home.css';
+const data = require('./HomeText.json');
 
 class Home extends Component {
   componentDidMount(){
@@ -27,14 +28,7 @@ class Home extends Component {
               <div className="col-3 col-lg order-md-6"></div>
               <div className="col-3 col-lg-2 pb-1 pt-2 order-md-1"></div>
               <div className="col-xs-12 col-md-12 col-lg-8 col-xl-8 order-md-2">
-                <p className="paragraph">
-                “‘After lifen' käsite saa uuden merkityksen 15- vuotiaan Howien paiskautuessa itsemurhansa yhteydessä vuosikymmeniä taaksepäin. 
-                Robottisodan uhka väreilee ilmassa, mutta onneksi Team Barracuda - erikoisoperaatioon valikoituu vain kymmenen parasta miestä - 
-                tai naista tai määrittelemätöntä. Vuorien takana liskokansa heräilee satojen vuosien hiljaiselon jälkeen. 
-                Myös banaaniviidakon siimeksessä unohdettu villiheimo nostaa päätään ensimmäisen kerran sitten surullisenkuuluisan tohtori Deadrockin tutkimusretken. 
-                Robottien kanssa yhteen ottaneen Lynxtonien aatelissuvun viimeiseksi jäänyt Adrian teroittaa kyntensä ja on valmiina kostoon - 
-                kunhan armeijan hernekeittoa saa myös gluteiinittomana.”
-                </p>
+                <p className="paragraph">{data.Comic}</p>
               </div>
               <div className="col-xs-12 col-md-1 col-lg-2 col-xl-2 order-md-3"></div>
             </div>
@@ -46,22 +40,22 @@ class Home extends Component {
               </div>
             </div>
             <div className="row pt-2">
-            <div className="col order-md-2"></div>
+              <div className="col order-md-2"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-3">
-                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt="Globinet linkki"/></Link>
+                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt="päähenkilöt linkki"/></Link>
               </div>
-            <div className="col order-md-4"></div>
+              <div className="col order-md-4"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-5">
-                <Link to="/world/society"><img className="img-fluid saturate" src="/Images/Links/linkki-yhteiskunta-vaaka.png" alt="Yhteiskunta linkki"/></Link>
+                <Link to="/world/society"><img className="img-fluid saturate" src="/Images/Links/linkki-yhteiskunta-vaaka.png" alt="tärkeät hahmot linkki"/></Link>
               </div>
-            <div className="col order-md-6"></div>
-            <div className="col-4 col-sm-4 col-md order-md-8"></div>
-              <div className="col-4 col-md-3 col-lg-2 order-md-7">
-                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt=" linkki"/></Link>
-              </div>
-            <div className="col-4 col-lg-12 order-md-9"></div>
+              <div className="col order-md-6"></div>
               <div className="col-12 order-md-1">
-                <p className="paragraph">Tähän joku johdatteleva teksti yhteiskuntaan ja maailmaan liittyen</p>
+                <p className="paragraph">{data.World}</p>
+              </div>
+            </div>
+            <div className="row pb-4 pt-5">
+              <div className="col-12">
+                <h2>Tutustu meihin ja CST:hen</h2>
               </div>
             </div>
             <div className="row pb-4 pt-5">
@@ -80,7 +74,7 @@ class Home extends Component {
               </div>
               <div className="col order-md-6"></div>
               <div className="col-12 order-md-1">
-                <p className="paragraph">Tähän joku johdatteleva teksti hahmoihin liittyen</p>
+                <p className="paragraph">{data.Characters}</p>
               </div>
             </div>
             <div className="row pb-4 pt-5">
@@ -95,7 +89,7 @@ class Home extends Component {
               </div>
               <div className="col order-md-4"></div>
               <div className="col-12 order-md-1">
-                <p className="paragraph">Tähän joku johdatteleva teksti CST:hen ja teihin liittyen</p>
+                <p className="paragraph">{data.CST}</p>
               </div>
             </div>
           </div>
