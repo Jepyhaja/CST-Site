@@ -44,7 +44,7 @@ class About extends Component {
       const Images = props => {
         let Component = [];
         for(let i=0;i<props.data.length;i++){
-            Component.push(<div key={i} className="col-2 col-xl-1"><img className="img-fluid clickable" src={"/Images/CST/"+props.data[i].Nimi+".png"} alt="" onClick={() => swapProps(props.data[i])}/></div>);
+            Component.push(<div key={i} className="col col-xl-1"><img className="img-fluid clickable" src={"/Images/CST/"+props.data[i].Nimi+".png"} alt="" onClick={() => swapProps(props.data[i])}/></div>);
         }
         return Component;
     }
@@ -74,7 +74,7 @@ class About extends Component {
               <div className="col"></div>
               <div className="col-sm-10 col-lg-10 col-xl-5"><p className="paragraph">{data.CST.p1}</p><p className="paragraph">{data.CST.p2}</p></div>
               <div className="col"></div>
-              <div className="col-sm-4 col-xl-4 pt-2"><img className="img-fluid" src="/Images/CST/emmett.png" alt="Emmett"/></div>
+              <div className="col-sm-12 col-md-12 col-xl-4 pt-2"><img className="img-fluid" src="/Images/CST/emmett.png" alt="Emmett"/></div>
               <div className="col"></div></div>
             <div className="row pt-3">
               <div className="col"></div>
@@ -87,9 +87,9 @@ class About extends Component {
               <div className="col-12"><h2>Tekijät</h2></div>
             </div>
             <div className="row pt-3">
-              <div className="col"></div>
+              <div className="col d-none d-lg-block"></div>
               <Images data={data.Creators}/>
-              <div className="col"></div>
+              <div className="col d-none d-lg-block"></div>
             </div>
               <DisplayCreators data={this.state}/>
         </div>  

@@ -9,10 +9,11 @@ class DisplayCreators extends Component {
                 <div className="col-12"><h3>{this.props.data.a}</h3></div>
             </div>
             <div className="row pt-4">
-                <div className="col"></div>
-                <div className="col-4 pt-3"><img src={"/Images/CST/"+this.props.data.a+".png"} alt=""/></div>
-                <div className="col"></div>
-                <div className="col-5">
+                <div className="col col-md-3 col-lg"></div>
+                <div className="col-md-6 col-lg-4 pt-3"><img className="img-fluid pb-3" src={"/Images/CST/"+this.props.data.a+".png"} alt=""/></div>
+                <div className="col col-md-3 col-lg"></div>
+                <div className="col d-lg-none"></div>
+                <div className="col-md-10 col-lg-5">
                     <ul className="list-group pb-3">
                         <li className="list-group-item text-left paragraph"><strong>Suosikkiasuste :</strong> {this.props.data.b}</li>
                         <li className="list-group-item text-left paragraph"><strong>Lempikukka :</strong> {this.props.data.c}</li>

@@ -77,33 +77,21 @@
 .floatR{
     float: right !important;
 }
-.in-line{
-    display: inline-block;
-}
 .toTop{
     z-index: 2;
 }
 .popUp{
     position: relative;
-    border-radius: 1%;
-    background: #ffffff;
+    background: #f5f5f5;
+    border-radius: 5px;
     top:20vh;
     max-height: 60vh;
     overflow: auto;
+    box-shadow: #303030 1px 1px 3px;
 }
 .close-btn{
     color: red;
     cursor: pointer;
-}
-.fixed-head{
-    position: fixed;
-    background: rgb(235, 235, 235);
-    box-shadow: rgba(48, 48, 48, 0.4) 0px 1px 2px;
-    padding: none;
-}
-.overflow{
-    max-height: 50%;
-    overflow: auto;
 }
 .img{
     width: 30%;
@@ -151,10 +139,5 @@
 @media only screen and (min-width: 1250px) {
     .continent{
         font-size: 2vw;
-    }
-    .fixed-head{
-        position: fixed;
-        background: rgb(235, 235, 235);
-        box-shadow: rgba(48, 48, 48, 0.4) 0px 1px 2px;
     }
 }
