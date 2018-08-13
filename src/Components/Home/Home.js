@@ -55,11 +55,6 @@ class Home extends Component {
             </div>
             <div className="row pb-4 pt-5">
               <div className="col-12">
-                <h2>Tutustu meihin ja CST:hen</h2>
-              </div>
-            </div>
-            <div className="row pb-4 pt-5">
-              <div className="col-12">
                 <h2>Tutustu sarjakuvan hahmoihin</h2>
               </div>
             </div>
@@ -79,13 +74,13 @@ class Home extends Component {
             </div>
             <div className="row pb-4 pt-5">
               <div className="col-12">
-                <h2>Tutustu meihin ja CST:hen</h2>
+                <h2>Tutustu CST:hen ja meihin</h2>
               </div>
             </div>
             <div className="row pt-2">
               <div className="col order-md-2"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-3">
-                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-hahmot-vaaka.png" alt="Cst esittely linkki"/></Link>
+                <Link to="/cst"><img className="img-fluid saturate" src="/Images/Links/linkki-cst-vaaka.png" alt="Cst esittely linkki"/></Link>
               </div>
               <div className="col order-md-4"></div>
               <div className="col-12 order-md-1">

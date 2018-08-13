@@ -1,0 +1,102 @@
+{
+    "CST":
+        {
+            "p1": "Charlie's Surfing Team (CST) on tällä hetkellä vauhdilla kasvava sarjakuvailmiö, joka on jo herättänyt huomiota ulkomaillakin. Varsinainen tuotteemme on internetissä julkaistava sarjakuva “Team Barracuda”.",
+            "p2": "CST:n päämääränä on tuottaa informatiivista ja viihdyttävää sarjakuvaa teemoista, joita erityisesti nuoret joutuvat usein kohtaamaan elämässään. Teemoihimme kuuluvat mm. indentiteettikysymykset, seksuaalisuuden käsittely, mielenterveys, syrjäytyminen, suuret moraalikysymykset (esim. asevelvollisuus ja ympäristöasiat) sekä tasa-arvo. Käsittelemme teemoja rohkealla otteella ja useasta näkökulmasta. Tarkoituksemme onkin tarjota lukijoillemme materiaalia, joka kannustaa teemojen itsenäiseen pohdintaan ja tutkimiseen.",
+            "p3": "CST on kuuden taide-, media- ja sosiaalialan opiskelijan kehittämä ja ylläpitämä projekti, joka pyrkii täyttämään suomalaisen kirjallisuuden ja nuortenkulttuurin kentällä olevia aukkoja. CST:n tavoitteisiin kuuluu kotimaisen sarjakuvakulttuurin edistäminen ja uudistaminen sekä tabuiksi muodostuneiden aiheiden käsittely. CST ravistelee kirjallisuuden ja taiteen kenttää myös siltä osin, että sarjakuvaprojekti yhdistelee rohkeasti erilaisia tyylejä ja rikkoo kerronnan rutiineja.",
+            "p4": "Olemme puolessa vuodessa saavuttaneet laajaa näkyvyyttä sosiaalisen median taide-, kirjallisuus- ja nuorisopiireissä. Saamme jatkuvasti yhteydenottoja kaikenikäisiltä seuraajilta (pääasiassa nuorilta aikuisilta), joita kiinnostavat prosessin eteneminen ja konsepti. Kotimaisia seuraajiamme kiinnostaa erityisesti “Team Barracuda” - projektin luonne itsenäisenä konseptina. CST on käytännössä tyhjästä ponnistanut kokeilu, jonka on tarkoitus venyttää sosiaalisen median ja julkisen keskustelun rajoja. Niin CST kuin “Team Barracudakin” ovat esimerkkejä siitä, että kuka tahansa voi toimia muutoksentekijänä, jos vain uskaltaa hypätä tuntemattomaan ja on valmis kasvamaan matkalla."
+        },
+    "Creators":[
+        {
+                "Nimi": "Jääprinsessa",
+                "Asu": "Pikkuveljen kanssa jaetut ystävyysrannekkeet.",
+                "Kukka": "Laventeli.",
+                "Ruoka": "Jätski ja vohvelit.",
+                "Leffa": "Atlantis ja Leijonakuningas 2.",
+                "Sarjis": "Tintin seikkailut.",
+                "Juhla": "Itsekeksityt merkkipäivät.",
+                "Päivä": "Kaikki tai ei mikään.",
+                "Vuodenaika": "Syksy.",
+                "Karkki": "Salmiakki ja hedelmätoffee.",
+                "Peli": "Menolippu.",
+                "Numero": "Vaihtelee.",
+                "Inhoan": "Aikaansaamattomuutta, laiskottelua, vätystelyä ja lusmuilua."
+            },
+        {
+                "Nimi": "Lady",
+                "Asu": "Pinkki-violetti-vaaleansiniruudulliset villasukat.",
+                "Kukka": "Päivänkakkara.",
+                "Ruoka": "Raclette, ainakin parilla juustovaihtoehdolla ja suurella täytevalikoimalla.",
+                "Leffa": "Coraline.",
+                "Sarjis": "Sandman, se Neil Gaimanin kirjoittama.",
+                "Juhla": "Mun synttärit, koska silloin on sekä joulu että halloween.",
+                "Päivä": "Riemuntai.",
+                "Vuodenaika": "Loppukesä, kun kovimmat helteet on ohi, mutta on silti lämmin.",
+                "Karkki": "Oreo-suklaa ja salmiakit.",
+                "Peli": "Muiden päiden menoksi juonittelu.",
+                "Numero": "42",
+                "Inhoan": "Sitä, kun väsyneenä kaatuu sänkyyn, mutta sitten muistaa ettei ole pessyt hampaita ja on taas noustava ylös."
+            },
+        {
+                "Nimi": "Macho",
+                "Asu": "Villasukat, usein myös kesällä.",
+                "Kukka": "Kaikki kummallisenmuotoiset pikkukaktukset.",
+                "Ruoka": "Pizza.",
+                "Leffa": "Disneyn Hercules.",
+                "Sarjis": "Daytripper (by Fábio Moon & Gabriel Bá).",
+                "Juhla": "Juhannus.",
+                "Päivä": "Perjantai",
+                "Vuodenaika": "Kesä.",
+                "Karkki": "Suklaa-crisp.",
+                "Peli": "Menolippu.",
+                "Numero": "14",
+                "Inhoan": "Sieniä, homejuustoa ja oliiveja, erityisesti samassa pizzassa."
+            },
+        {
+                "Nimi": "Pikkuveli",
+                "Asu": "Jääprinsessalta saadut ystävyysrannekkeet.",
+                "Kukka": "Lupiini.",
+                "Ruoka": "Sushi.",
+                "Leffa": "Leijonakuningas.",
+                "Sarjis": "NaNa (Ai Yazawa).",
+                "Juhla": "Halloween.",
+                "Päivä": "Humpday.",
+                "Vuodenaika": "Syksy.",
+                "Karkki": "Kuumat kummut.",
+                "Peli": "Seuraleikit.",
+                "Numero": "4",
+                "Inhoan": "Kastematoja ja suolatikkuja."
+            },
+        {
+                "Nimi": "Rumba",
+                "Asu": "Suuri musta hellehattu.",
+                "Kukka": "Kaikenlaiset köynnökset ja roikkuvat kasvit.",
+                "Ruoka": "Täytetyt sienet.",
+                "Leffa": "Das boot.",
+                "Sarjis": "Asterix ja Obelix.",
+                "Juhla": "Halloween.",
+                "Päivä": "Viikonloppu.",
+                "Vuodenaika": "Kesä.",
+                "Karkki": "Merisuolapastillit.",
+                "Peli": "Menolippu.",
+                "Numero": "5",
+                "Inhoan": "Vaaksiaisia, lukkeja ja aikaisia aamuja."
+            },
+        {
+                "Nimi": "Tonnikala",
+                "Asu": "Keltainen nahkatakkini.",
+                "Kukka": "Neilikka.",
+                "Ruoka": "Pizza.",
+                "Leffa": "Christopher Nolanin The Dark Knight (kuolematon Heath Ledger Jokerina on parasta maailmassa).",
+                "Sarjis": "Fullmetal Alchemist (Hiromu Arakawa).",
+                "Juhla": "Uusivuosi.",
+                "Päivä": "Vapaapäivä.",
+                "Vuodenaika": "Ehdottomasti kunnon luminen ja kylmä talvi.",
+                "Karkki": "Ässä mix-karkit ja marabou-suklaa.",
+                "Peli": "Menolippu.",
+                "Numero": "8",
+                "Inhoan": "Korkeita paikkoja, aamuja herätyskellon kanssa, kiirettä ja koirankorvia kirjan sivujen nurkissa."
+            
+        }
+    ]
+}

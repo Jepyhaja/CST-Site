@@ -37,7 +37,7 @@ class Regals extends Component {
         <div>
             <div className="row pt-3">
                 <div className="col-12">
-                    <h2>Aateliset</h2>
+                    <h2>Aatelissuvut</h2>
                 </div>
             </div>
             <div className="row pt-3 pb-5">

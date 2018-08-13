@@ -73,10 +73,7 @@ class Nav extends Component {
                             <Link className="dropdown-item" to="/chars/supports">Muut hahmot</Link>
                         </NavDropdown>
                         <NavLink to="/fanmail" className="nav-link">Faniposti</NavLink>
-                        <NavDropdown name="CST" loc="/about">
-                            <Link className="dropdown-item" to="/about/cst">Mikä on CST?</Link>
-                            <Link className="dropdown-item" to="/about/creators">Keitä olemme?</Link>
-                        </NavDropdown>
+                        <NavLink to="/cst" className="nav-link">CST</NavLink>
                         <NavItem name="Medialle" path="/media" disabled="true" />
                     </ul>
                 </div>
