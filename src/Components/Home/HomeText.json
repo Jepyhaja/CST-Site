@@ -1,6 +1,15 @@
 {    
     "Comic":"“‘After lifen' käsite saa uuden merkityksen 15- vuotiaan Howien paiskautuessa itsemurhansa yhteydessä vuosikymmeniä taaksepäin. Robottisodan uhka väreilee ilmassa, mutta onneksi Team Barracuda - erikoisoperaatioon valikoituu vain kymmenen parasta miestä - tai naista tai määrittelemätöntä. Vuorien takana liskokansa heräilee satojen vuosien hiljaiselon jälkeen. Myös banaaniviidakon siimeksessä unohdettu villiheimo nostaa päätään ensimmäisen kerran sitten surullisenkuuluisan tohtori Deadrockin tutkimusretken. Robottien kanssa yhteen ottaneen Lynxtonien aatelissuvun viimeiseksi jäänyt Adrian teroittaa kyntensä ja on valmiina kostoon - kunhan armeijan hernekeittoa saa myös gluteiinittomana.”",
-    "World":"Odottaa tekstiä",
-    "Characters":"Odottaa tekstiä",
-    "CST": "Odottaa tekstiä"
+    "World":{
+        "text": "“Olen sentään puhdas kissa-aatelinen, en mikään puoliverinen. Satun myös asumaan Globinetin vauraimmassa valtiossa, De Luxerlandissa. Turha siis verrata minua mihinkään Fatroidin aatelittomiin autokorjaajiin.”",
+        "cit":" - Adrian Lynxton, “Baby Lynx”"    
+    },
+    "Characters":{
+        "text": "“Perhe voi kai muodostua muistakin, kuin vain biologisista yhteyksistä. Minä ainakin koen, että tärkeät ihmiset ympärilläni alkavat muistuttaa enemmän perhettä, kuin oikeat sukulaiseni.”",
+        "cit":" - Elli Nykänen, “Tyger”"
+    },
+    "CST": {
+        "text": "”Lupaamme osaltamme tehdä työtä vapaamman ilmaisun edistämiseksi ja antaaksemme voimaa  kaikille, jotka sitä kokevat tarvitsevansa. Älkää pelätkö luoda itsenne näköistä taidetta, se on kauneinta ja tärkeintä, mitä voitte tehdä.”",
+        "cit": " - CST:n tuotantotiimi"
+    }
 }

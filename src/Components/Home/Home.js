@@ -2,12 +2,11 @@ import React, {Component} from 'react';
 import {
   Link
 } from 'react-router-dom';
-import './home.css';
 const data = require('./HomeText.json');
 
 class Home extends Component {
   componentDidMount(){
-    window.scrollTo(0,0);
+    //window.scrollTo(0,0);
   }
     render() {
       return (
@@ -33,24 +32,27 @@ class Home extends Component {
               <div className="col-xs-12 col-md-1 col-lg-2 col-xl-2 order-md-3"></div>
             </div>
           </div>
-          <div className="container-fluid bg-color-darkergray pt-5">
+          <div className="container-fluid bg-color-darkergray pt-5 pb-5">
             <div className="row pb-4">
               <div className="col-12">
                 <h2>Tutustu Globinetiin, sen yhteiskuntaan ja keskeisiin paikkoihin</h2>
               </div>
             </div>
             <div className="row pt-2">
-              <div className="col order-md-2"></div>
-              <div className="col-4 col-md-3 col-lg-2 order-md-3">
-                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt="päähenkilöt linkki"/></Link>
-              </div>
+              <div className="col d-none d-lg-block col-lg-3 order-md-3"></div>
               <div className="col order-md-4"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-5">
-                <Link to="/world/society"><img className="img-fluid saturate" src="/Images/Links/linkki-yhteiskunta-vaaka.png" alt="tärkeät hahmot linkki"/></Link>
+                <Link to="/world/globinet"><img className="img-fluid saturate" src="/Images/Links/linkki-globinet-vaaka.png" alt="päähenkilöt linkki"/></Link>
               </div>
               <div className="col order-md-6"></div>
-              <div className="col-12 order-md-1">
-                <p className="paragraph">{data.World}</p>
+              <div className="col-4 col-md-3 col-lg-2 order-md-7">
+                <Link to="/world/society"><img className="img-fluid saturate" src="/Images/Links/linkki-yhteiskunta-vaaka.png" alt="tärkeät hahmot linkki"/></Link>
+              </div>
+              <div className="col order-md-8"></div>
+              <div className="col-lg-3 d-none d-lg-block order-md-1"></div>
+              <div className="col-12 col-lg-6 order-md-2 pt-3">
+                <p className="paragraph">{data.World.text}</p>
+                <p className="paragraph">{data.World.cit}</p>
               </div>
             </div>
             <div className="row pb-4 pt-5">
@@ -59,17 +61,20 @@ class Home extends Component {
               </div>
             </div>
             <div className="row pt-2">
-              <div className="col order-md-2"></div>
-              <div className="col-4 col-md-3 col-lg-2 order-md-3">
-                <Link to="/Chars/Protagonists"><img className="img-fluid saturate" src="/Images/Links/linkki-paahenkilot-vaaka.png" alt="päähenkilöt linkki"/></Link>
-              </div>
+              <div className="col d-none d-lg-block col-lg-3 order-md-3"></div>
               <div className="col order-md-4"></div>
               <div className="col-4 col-md-3 col-lg-2 order-md-5">
-                <Link to="/Chars/Supports"><img className="img-fluid saturate" src="/Images/Links/linkki-tarkeathahmot-vaaka.png" alt="tärkeät hahmot linkki"/></Link>
+                <Link to="/Chars/Protagonists"><img className="img-fluid saturate" src="/Images/Links/linkki-paahenkilot-vaaka.png" alt="päähenkilöt linkki"/></Link>
               </div>
               <div className="col order-md-6"></div>
-              <div className="col-12 order-md-1">
-                <p className="paragraph">{data.Characters}</p>
+              <div className="col-4 col-md-3 col-lg-2 order-md-7">
+                <Link to="/Chars/Supports"><img className="img-fluid saturate" src="/Images/Links/linkki-tarkeathahmot-vaaka.png" alt="tärkeät hahmot linkki"/></Link>
+              </div>
+              <div className="col order-md-8"></div>
+              <div className="col-lg-3 d-none d-lg-block order-md-1"></div>
+              <div className="col-12 col-lg-6 order-md-2 pt-3">
+                <p className="paragraph">{data.Characters.text}</p>
+                <p className="paragraph">{data.Characters.cit}</p>
               </div>
             </div>
             <div className="row pb-4 pt-5">
@@ -78,13 +83,16 @@ class Home extends Component {
               </div>
             </div>
             <div className="row pt-2">
-              <div className="col order-md-2"></div>
-              <div className="col-4 col-md-3 col-lg-2 order-md-3">
+              <div className="col d-none d-lg-block col-lg-3 order-lg-3"></div>
+              <div className="col order-md-4"></div>
+              <div className="col-4 col-md-3 col-lg-2 order-md-5">
                 <Link to="/cst"><img className="img-fluid saturate" src="/Images/Links/linkki-cst-vaaka.png" alt="Cst esittely linkki"/></Link>
               </div>
-              <div className="col order-md-4"></div>
-              <div className="col-12 order-md-1">
-                <p className="paragraph">{data.CST}</p>
+              <div className="col order-md-6"></div>
+              <div className="col-lg-3 d-none d-lg-block order-md-1"></div>
+              <div className="col-12 col-lg-6 order-md-2 pt-3">
+                <p className="paragraph">{data.CST.text}</p>
+                <p className="paragraph">{data.CST.cit}</p>
               </div>
             </div>
           </div>

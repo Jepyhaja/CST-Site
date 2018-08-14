@@ -28,7 +28,7 @@ class Comic extends Component {
       const checker = pageURI.split("/");
       if(checker[3] !== 'page'){
         return(
-          <div className="container-fluid pt-2">
+          <div className="container-fluid min-height pt-2">
             <div className="row">
               <div className="col"></div>
               <div className="col-lg-12 col-xl-10">
