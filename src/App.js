@@ -9,6 +9,8 @@ import MainCharacters from './Components/Characters/MainCharacters';
 import SupportCharacters from './Components/Characters/SupportCharacters';
 import Globinet from './Components/Globinet/Globinet';
 import Society from './Components/Society/Society';
+import Footer from './Components/Footer/Footer';
+import Media from './Components/Media/Media';
 import {
   Route,
   Switch
@@ -29,8 +31,10 @@ class App extends Component {
               <Route path="/world/society" component={Society}/>
               <Route path="/chars/protagonists" component={MainCharacters}/>
               <Route path="/chars/supports" component={SupportCharacters}/>
+              <Route path="/media" component={Media}/>
               <Route component={NotFound}/>
-            </Switch>  
+            </Switch>
+            <Footer />
         </div>
     );
   }

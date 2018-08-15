@@ -1,17 +1,14 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-
 class FanMail extends Component {
+  
   componentDidMount(){
     window.scrollTo(0,0);
   }
-  state={
-    message: ''
-  }
   handleSubmit = (event) =>{
     event.preventDefault();
-    this.setState({message: 'Lähetetään viestiä...' }, this.sendFormData);
+    this.sendFormData();
   }
   sendFormData = () =>{
     // Prepare form data for submitting it.
@@ -28,19 +25,14 @@ class FanMail extends Component {
 
     axios.post('/mail/contact_me.php',formdata)
     .then(function(response){
-      if(!response.data){
-        this.setState({
-          message: response.data
-        })
-      }
+      console.log(response.data);
       form.reset();
+      return response.data
     })
     .catch(function(error){
       console.log(error);
-        this.setState({
-          message: error
-        })
       form.reset();
+      return error
     })
   }
     render() {
@@ -76,7 +68,6 @@ class FanMail extends Component {
                   <h6>Jos haluat vastauksen esimerkiksi kysymykseesi, kirjoita sähköpostiosoiteesi.</h6>
                 </div>
                 <br/>
-                <div id="success">{this.state.message}</div>
                 <div className="form-group">
                   <button type="submit" className="btn btn-dark" id="sendMessageButton">Lähetä</button>
                 </div>
