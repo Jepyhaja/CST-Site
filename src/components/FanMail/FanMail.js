@@ -47,7 +47,7 @@ class FanMail extends Component {
       
       
       return (
-        <div className="container-fluid pt-5">
+        <div className="container-fluid min-height pt-5">
           <div className="row">
             <div className="col"></div>
               <div className="col-xl-4 col-lg-6 col-md-8 col-sm-12">

@@ -4,7 +4,6 @@ import {
     NavLink
   } from 'react-router-dom';
 import NavDropdown from './NavDropDown';
-import './nav.css';
 
   const NavItem = props => {
     const pageURI = window.location.hash+window.location.search
@@ -74,7 +73,7 @@ class Nav extends Component {
                         </NavDropdown>
                         <NavLink to="/fanmail" className="nav-link">Faniposti</NavLink>
                         <NavLink to="/cst" className="nav-link">CST</NavLink>
-                        <NavItem name="Medialle" path="/media" disabled="true" />
+                        <NavItem name="Medialle" path="/media" />
                     </ul>
                 </div>
             </div>
