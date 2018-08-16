@@ -24,8 +24,8 @@ class Media extends Component {
                 <div className="col"></div>
                 <div className="col-12 col-lg-12">
                     <h2 className="pb-4 pt-4">Lataa Google Drivestä</h2>
-                    <p><a className="btn btn-secondary" href="https://drive.google.com/drive/folders/0B6G4qIKSUzDzSVZGVjljQ0EtOXc?usp=sharing" target="_blank">CST toimintaan liittyvät tiedostot</a></p>
-                    <p><a className="btn btn-secondary" href="https://drive.google.com/drive/folders/0B6G4qIKSUzDzcl83a2NkYzlaRmc?usp=sharing">CST kuvia mediakäyttöön</a></p>
+                    <p><a className="btn btn-secondary" href="https://drive.google.com/drive/folders/0B6G4qIKSUzDzSVZGVjljQ0EtOXc?usp=sharing" target="_blank" rel="noopener noreferrer">CST toimintaan liittyvät tiedostot</a></p>
+                    <p><a className="btn btn-secondary" href="https://drive.google.com/drive/folders/0B6G4qIKSUzDzcl83a2NkYzlaRmc?usp=sharing" target="_blank" rel="noopener noreferrer">CST kuvia mediakäyttöön</a></p>
                 </div>
                 <div className="col"></div>
             </div>

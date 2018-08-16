@@ -27,6 +27,7 @@ a:hover{
 }
 body{
     background-color: #f5f5f5 !important;
+    color: #010e0d;
 }
 .bg-color-darkergray{
     background-color: #e9e9e9 !important;
@@ -42,7 +43,7 @@ body{
     max-width: 60px !important;
 }
 .min-height{
-    min-height: 100vh;
+    min-height: 90vh;
 }
 .paragraph{
     font-size: 1em;
@@ -72,7 +73,38 @@ h4{
 .chardesc{
     padding-top:1.5em;
 }
+.bg-img-home{
+    background-image: url('/Images/Taustat/Home1.png');
+    background-repeat: no-repeat;
+    background-position-y: 15vh;
+    background-position-x: -60vw;
+    background-size: 100vh;
+}
+.bg-img-home2{
+    background-image: url('/Images/Taustat/Home2.png');
+    background-repeat: no-repeat;
+    background-position-y: 35vh;
+    background-position-x: -20vw;
+    background-size: 100vh;
+}
+.bg-img-comic{
+    background-image: url('/Images/Taustat/Comic.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position-y: 5vh;
+    background-position-x: 0vw;
+}
+.bg-img-fanmail{
+    background-image: url('/Images/Taustat/Faniposti.png');
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position-y: -5vh;
+    background-position-x: -30vh;
+}
 @media only screen and (min-width: 560px) {
+    .min-height{
+        min-height: 80vh;
+    }
     .paragraph{
         font-size: 1.2em;
     }
@@ -88,8 +120,40 @@ h4{
     h4{
         font-size: 1.2em;
     }
+    .bg-img-home{
+        background-image: url('/Images/Taustat/Home1.png');
+        background-repeat: no-repeat;
+        background-position-y: 35vh;
+        background-position-x: -30vw;
+        background-size: 150vh;
+    }
+    .bg-img-home2{
+        background-image: url('/Images/Taustat/Home2.png');
+        background-repeat: no-repeat;
+        background-position-y: 65vh;
+        background-position-x: 30vw;
+        background-size: 150vh;
+    }
+    .bg-img-comic{
+        background-image: url('/Images/Taustat/Comic.png');
+        background-repeat: no-repeat;
+        background-size: 55vw;
+        background-position-y: 5vh;
+        background-position-x: 50vw;
+    }
+    .bg-img-fanmail{
+        background-image: url('/Images/Taustat/Faniposti.png');
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        background-position-y: -7vh;
+        background-position-x: -20vw;
+    }
+
 }
 @media only screen and (min-width: 767px) {
+    .min-height{
+        min-height: 100vh;
+    }
     .paragraph{
         font-size: 1.3em;
     }
@@ -105,14 +169,135 @@ h4{
     h4{
         font-size: 1.3em;
     }
+    .bg-img-home{
+        background-image: url('/Images/Taustat/Home1.png');
+        background-repeat: no-repeat;
+        background-position-x: -40vw;
+        background-size: 100vh;
+    }
+    .bg-img-home2{
+        background-image: url('/Images/Taustat/Home2.png');
+        background-repeat: no-repeat;
+        background-position-x: -10vw;
+        background-size: 100vh;
+    }
+    .bg-img-comic{
+        background-image: url('/Images/Taustat/Comic.png');
+        background-repeat: no-repeat;
+        background-size: 70vh;
+        background-position-y: 5vh;
+        background-position-x: 5vw;
+    }
+    .bg-img-fanmail{
+        background-image: url('/Images/Taustat/Faniposti.png');
+        background-repeat: no-repeat;
+        background-size: 70vw;
+        background-position-y: 5vh;
+        background-position-x: -20vw;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .min-height{
+        min-height: 90vh;
+    }
+    .bg-img-home{
+        background-image: url('/Images/Taustat/Home1.png');
+        background-repeat: no-repeat;
+        background-position-y: 30vh;
+        background-position-x: -20vw;
+        background-size: 100vh;
+    }
+    .bg-img-home2{
+        background-image: url('/Images/Taustat/Home2.png');
+        background-repeat: no-repeat;
+        background-position-y: 50vh;
+        background-position-x: 55vw;
+        background-size: 100vh;
+    }
+    .bg-img-comic{
+        background-image: url('/Images/Taustat/Comic.png');
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        background-position-y: 0vh;
+        background-position-x: 0vw;
+    }
+    .bg-img-fanmail{
+        background-image: url('/Images/Taustat/Faniposti.png');
+        background-repeat: no-repeat;
+        background-size: 70vw;
+        background-position-y: 5vh;
+        background-position-x: -20vw;
+    }
 }
 @media only screen and (min-width: 992px) {
+    .min-height{
+        min-height: 100vh;
+    }
     .chardesc{
         padding-top:0.5em;
     }
+    .bg-img-home{
+        background-image: url('/Images/Taustat/Home1.png');
+        background-repeat: no-repeat;
+        background-position-y: 20vh;
+        background-position-x: -20vw;
+        background-size: 100vh;
+    }
+    .bg-img-home2{
+        background-image: url('/Images/Taustat/Home2.png');
+        background-repeat: no-repeat;
+        background-position-y: 40vh;
+        background-position-x: 45vw;
+        background-size: 100vh;
+    }
+    .bg-img-comic{
+        background-image: url('/Images/Taustat/Comic.png');
+        background-repeat: no-repeat;
+        background-size: 80vh;
+        background-position-y: 5vh;
+        background-position-x: 55vw;
+    }
+    .bg-img-fanmail{
+        background-image: url('/Images/Taustat/Faniposti.png');
+        background-repeat: no-repeat;
+        background-size: 80vh;
+        background-position-y: 5vh;
+        background-position-x: 55vw;
+    }
 }
 @media only screen and (min-width: 1199px) {
+    .min-height{
+        min-height: 90vh;
+    }
     .chardesc{
         padding-top:2em;
+    }
+    .bg-img-home{
+        background-image: url('/Images/Taustat/Home1.png');
+        background-repeat: no-repeat;
+        background-size: 80vw;
+        background-position-y: 0vh;
+        background-position-x: -15vw;
+    }
+    .bg-img-home2{
+        background-image: url('/Images/Taustat/Home2.png');
+        background-repeat: no-repeat;
+        background-size: 60vw;
+        background-position-y: 40vh;
+        background-position-x: 55vw;
+    }
+    .bg-img-comic{
+        background-image: url('/Images/Taustat/Comic.png');
+        background-repeat: no-repeat;
+        background-size: 80vh;
+        background-position-y: 5vh;
+        background-position-x: 55vw;
+    }
+    .bg-img-fanmail{
+        background-image: url('/Images/Taustat/Faniposti.png');
+        background-repeat: no-repeat;
+        background-size: 80vh;
+        background-position-y: 5vh;
+        background-position-x: 55vw;
     }
 }

@@ -39,6 +39,7 @@ class FanMail extends Component {
       
       
       return (
+        <div className="bg-img-fanmail">
         <div className="container-fluid min-height pt-5">
           <div className="row">
             <div className="col"></div>
@@ -75,6 +76,7 @@ class FanMail extends Component {
               </div>
             <div className="col"></div>
           </div>
+        </div>
         </div>
       );
     }

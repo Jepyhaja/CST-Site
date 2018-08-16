@@ -18,10 +18,10 @@ const ImportantPlacesButtons = props =>{
         let ToggleComponent = [];
         for(let i=0;i<props.array.length;i++){
             if(i>0){
-                Component.push(<button key={i} className="btn btn-secondary mt-4" onClick={props.popUp1}>{props.array[i].Name}</button>);
+                Component.push(<button key={i} className="btn btn-secondary m-2 mt-3" onClick={props.popUp1}>{props.array[i].Name}</button>);
                 ToggleComponent.push(<DisplayPlaces key={i} status1={props.status1} name={props.array[i].Name} ClosePopUp={props.ClosePopUp1} content={props.array[i]} location={props.location}/>)
             }else{
-                Component.push(<button key={i} className="btn btn-secondary mt-4" onClick={props.popUp}>{props.array[i].Name}</button>);
+                Component.push(<button key={i} className="btn btn-secondary m-2 mt-3" onClick={props.popUp}>{props.array[i].Name}</button>);
                 ToggleComponent.push(<DisplayPlaces key={i} status={props.status} name={props.array[i].Name} ClosePopUp={props.ClosePopUp} content={props.array[i]} location={props.location}/>)
             }
         }
@@ -75,7 +75,7 @@ class TxtImgBtn extends Component {
         }
       return (
         <div>
-            <div id={this.props.name} className="row pt-5 pb-5">
+            <div id={this.props.name} className="row pt-3 pb-5">
                 <div className="col-12 pb-3"><h2>{this.props.array.Name}</h2></div>
                     <div className="col order-1"></div>
                     <ImportantPlacesButtons array={this.props.array.ImportantPlaces} popUp={this.popUp} ClosePopUp={this.ClosePopUp} popUp1={this.popUp1} ClosePopUp1={this.ClosePopUp1} status={this.state.showPlace} status1={this.state.showPlace1} location={'Tärkeät paikat'}/>

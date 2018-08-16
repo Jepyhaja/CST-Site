@@ -28,6 +28,7 @@ class Comic extends Component {
       const checker = pageURI.split("/");
       if(checker[3] !== 'page'){
         return(
+          <div className="bg-img-comic">
           <div className="container-fluid min-height pt-2">
             <div className="row">
               <div className="col"></div>
@@ -56,6 +57,7 @@ class Comic extends Component {
                     {...props}/>
                   }
                 />
+            </div>
             </div>
         );
       }

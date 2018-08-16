@@ -5,7 +5,7 @@ const HeadAndParagraphs = props =>{
     const style = 'paragraph';
     let header, p1, p2, p3, p4;
     if(props.type === 'Tärkeät henkilöt'){
-        header = <h2>{props.array.Name}</h2>
+        header = <h2 className="pt-3">{props.array.Name}</h2>
     }
     if(props.array.Text.p1){
         p1 = <p className={firstStyle+' '+style}>{props.array.Text.p1}</p>

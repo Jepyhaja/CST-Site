@@ -10,11 +10,11 @@ class Home extends Component {
   }
     render() {
       return (
-        <div>
-          <div className="container-fluid">
+        <div className="bg-img-home">
+          <div className="container">
             <div className="row pt-5 pb-5">
               <div className="col"></div>
-              <div className="col-xs-12 col-md-12 col-lg-8 col-xl-6">
+              <div className="col-xs-12 col-md-12 col-lg-10 col-xl-10">
                 <img className="img-fluid" src="/Images/Home/cst-blogo.png" alt="CST Charlie's Surfing Team"/>
               </div>
               <div className="col"></div>
@@ -33,9 +33,10 @@ class Home extends Component {
             </div>
           </div>
           <div className="container-fluid bg-color-darkergray pt-5 pb-5">
+          <div className="bg-img-home2">
             <div className="row pb-4">
               <div className="col-12">
-                <h2>Tutustu Globinetiin, sen yhteiskuntaan ja keskeisiin paikkoihin</h2>
+                <h2>Tutustu Globinetiin ja sen yhteiskuntaan</h2>
               </div>
             </div>
             <div className="row pt-2">
@@ -95,6 +96,7 @@ class Home extends Component {
                 <p className="paragraph">{data.CST.cit}</p>
               </div>
             </div>
+          </div>
           </div>
         </div>
       );

@@ -9,7 +9,7 @@ class Society extends Component {
     }
     render() {
       return (
-          <div className="container-fluid">
+          <div className="container-fluid pt-5">
             <div className="row">
                 <div className="col-12">
                     <h1>Yhteiskunta</h1>
