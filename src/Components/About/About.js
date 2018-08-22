@@ -66,25 +66,35 @@ class About extends Component {
       })
   }
       return (
-        <div className="container-fluid">
+        <div>
+          <div className="bg-img-cst">
+            <div className="container-fluid">
+                <div className="row pt-5">
+                  <div className="col-12"><h1>Mikä Charlies's Surfing Team on?</h1></div>
+                </div>
+                <div className="row pt-5">
+                  <div className="col col-md-1"></div>
+                  <div className="col-12 col-md-8"><p className="paragraph text-left">{data.CST.p1}</p></div>
+                  <div className="col col-md-3"></div>
+                  <div className="col col-md-1"></div>
+                  <div className="col-12 col-md-8">
+                    <p className="paragraph text-left">{data.CST.p3}</p>
+                  </div>
+                  <div className="col col-md-3"></div>
+                  <div className="col col-md-1"></div>
+                  <div className="col-12 col-md-8">
+                    <p className="paragraph text-left">{data.CST.p2}</p>
+                  </div>
+                  <div className="col col-md-3"></div>
+                  <div className="col col-md-1"></div>
+                  <div className="col-12 col-md-8"><p className="paragraph text-left">{data.CST.p4}</p></div>
+                  <div className="col col-md-3"></div>
+                </div>
+              </div>
+          </div>
+          <div className="container-fluid bg-color-darkergray pt-5 pb-5">
             <div className="row pt-5">
-              <div className="col-12"><h1>Mikä Charlies's Surfing Team on?</h1></div>
-            </div>
-            <div className="row pt-5">
-              <div className="col"></div>
-              <div className="col-sm-10 col-lg-10 col-xl-5"><p className="paragraph">{data.CST.p1}</p><p className="paragraph">{data.CST.p2}</p></div>
-              <div className="col"></div>
-              <div className="col-sm-12 col-md-12 col-xl-4 pt-2"><img className="img-fluid" src="/Images/CST/emmett.png" alt="Emmett"/></div>
-              <div className="col"></div></div>
-            <div className="row pt-3">
-              <div className="col"></div>
-              <div className="col-xl-2 d-none d-xl-block"><img className="img-fluid" src="/Images/Tärkeät henkilöt/Everett.png" alt="Everett"/></div>
-              <div className="col"></div>
-              <div className="col-sm-10 col-lg-10 col-xl-5"><p className="paragraph pt-5">{data.CST.p3}</p><p className="paragraph pt-3">{data.CST.p4}</p></div>
-              <div className="col"></div>
-            </div>
-            <div className="row pt-5">
-              <div className="col-12"><h2>Tekijät</h2></div>
+                <div className="col-12"><h2>Tekijät</h2></div>
             </div>
             <div className="row pt-3">
               <div className="col d-none d-lg-block"></div>
@@ -92,7 +102,8 @@ class About extends Component {
               <div className="col d-none d-lg-block"></div>
             </div>
               <DisplayCreators data={this.state}/>
-        </div>  
+          </div>
+      </div>
       );
     }
   }

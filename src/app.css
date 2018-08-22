@@ -108,6 +108,13 @@ h4{
     background-position-y: -2vh;
     background-position-x: -20vh;
 }
+.bg-img-cst{
+    background-image: url('/Images/Taustat/cst.png');
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position-y: 30vh;
+    background-position-x: 20vw;
+}
 .jääprinsessa{
     color:#d3a0f1;
 }
@@ -187,7 +194,13 @@ h4{
         background-position-y: 0vh;
         background-position-x: -20vh;
     }
-
+    .bg-img-cst{
+        background-image: url('/Images/Taustat/cst.png');
+        background-repeat: no-repeat;
+        background-size: 120vw;
+        background-position-y: 20vh;
+        background-position-x: 30vw;
+    }
 }
 @media only screen and (min-width: 767px) {
     .min-height{
@@ -241,6 +254,13 @@ h4{
         background-position-y: 0vh;
         background-position-x: -10vh;
     }
+    .bg-img-cst{
+        background-image: url('/Images/Taustat/cst.png');
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        background-position-y: 20vh;
+        background-position-x: 30vw;
+    }
 }
 @media only screen and (min-width: 800px) {
     .min-height{
@@ -280,6 +300,13 @@ h4{
         background-size: 85vh;
         background-position-y: 0vh;
         background-position-x: -5vh;
+    }
+    .bg-img-cst{
+        background-image: url('/Images/Taustat/cst.png');
+        background-repeat: no-repeat;
+        background-size: 90vw;
+        background-position-y: 20vh;
+        background-position-x: 45vw;
     }
 }
 @media only screen and (min-width: 992px) {
@@ -324,6 +351,13 @@ h4{
         background-position-y: 0vh;
         background-position-x: -10vh;
     }
+    .bg-img-cst{
+        background-image: url('/Images/Taustat/cst.png');
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        background-position-y: 10vh;
+        background-position-x: 65vw;
+    }
 }
 @media only screen and (min-width: 1199px) {
     .min-height{
@@ -366,5 +400,12 @@ h4{
         background-size: 100vh;
         background-position-y: -5vh;
         background-position-x: -10vh;
+    }
+    .bg-img-cst{
+        background-image: url('/Images/Taustat/cst.png');
+        background-repeat: no-repeat;
+        background-size: 50vw;
+        background-position-y: 10vh;
+        background-position-x: 65vw;
     }
 }
