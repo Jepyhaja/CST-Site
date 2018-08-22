@@ -21,7 +21,7 @@ class Footer extends Component {
                 <div className="col-4 col-md-2 order-md-5">
                     <p className=""><Link to="/">Etusivu</Link></p>
                     <p className=""><Link to="/comic">Sarjakuva</Link></p>
-                    <p className=""><Link to="/fanmail">Faniposti</Link></p>
+                    <p className=""><Link to="/mail">Posti</Link></p>
                 </div>
                 <div className="col-4 col-md-2 order-md-5">
                     <p><Link to="/chars/protagonists">Päähenkilöt</Link></p>

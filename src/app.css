@@ -101,6 +101,38 @@ h4{
     background-position-y: -5vh;
     background-position-x: -30vh;
 }
+.bg-img-media{
+    background-image: url('/Images/Taustat/media_wr.png');
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position-y: -2vh;
+    background-position-x: -20vh;
+}
+.jääprinsessa{
+    color:#d3a0f1;
+}
+.lady{
+    color:#6c75ec;
+}
+.macho{
+    color:#b6ea64;
+}
+.pikkuveli{
+    color:#f85555;
+}
+.rumba{
+    color:#ece061;
+}
+.tonnikala{
+    color:#f89a55;
+}
+.direction{
+    color: #5d7e7e;
+    text-decoration-line: underline;
+}
+.direction:hover{
+    color: #84b6b6 !important;
+}
 @media only screen and (min-width: 560px) {
     .min-height{
         min-height: 80vh;
@@ -147,6 +179,13 @@ h4{
         background-size: 100vw;
         background-position-y: -7vh;
         background-position-x: -20vw;
+    }
+    .bg-img-media{
+        background-image: url('/Images/Taustat/media_wr.png');
+        background-repeat: no-repeat;
+        background-size: 85vw;
+        background-position-y: 0vh;
+        background-position-x: -20vh;
     }
 
 }
@@ -195,6 +234,13 @@ h4{
         background-position-y: 5vh;
         background-position-x: -20vw;
     }
+    .bg-img-media{
+        background-image: url('/Images/Taustat/media_wr.png');
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        background-position-y: 0vh;
+        background-position-x: -10vh;
+    }
 }
 @media only screen and (min-width: 800px) {
     .min-height{
@@ -227,6 +273,13 @@ h4{
         background-size: 70vw;
         background-position-y: 5vh;
         background-position-x: -20vw;
+    }
+    .bg-img-media{
+        background-image: url('/Images/Taustat/media_wr.png');
+        background-repeat: no-repeat;
+        background-size: 85vh;
+        background-position-y: 0vh;
+        background-position-x: -5vh;
     }
 }
 @media only screen and (min-width: 992px) {
@@ -264,6 +317,13 @@ h4{
         background-position-y: 5vh;
         background-position-x: 55vw;
     }
+    .bg-img-media{
+        background-image: url('/Images/Taustat/media_wr.png');
+        background-repeat: no-repeat;
+        background-size: 85vh;
+        background-position-y: 0vh;
+        background-position-x: -10vh;
+    }
 }
 @media only screen and (min-width: 1199px) {
     .min-height{
@@ -299,5 +359,12 @@ h4{
         background-size: 80vh;
         background-position-y: 5vh;
         background-position-x: 55vw;
+    }
+    .bg-img-media{
+        background-image: url('/Images/Taustat/media_wr.png');
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        background-position-y: -5vh;
+        background-position-x: -10vh;
     }
 }

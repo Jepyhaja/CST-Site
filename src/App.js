@@ -25,7 +25,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/cst" component={About}/>
-              <Route path="/fanmail" component={FanMail}/>
+              <Route path="/mail" component={FanMail}/>
               <Route path="/comic" component={Comic}/>
               <Route path="/world/globinet" component={Globinet}/>
               <Route path="/world/society" component={Society}/>

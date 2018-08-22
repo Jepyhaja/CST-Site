@@ -15,11 +15,15 @@ class FanMail extends Component {
     let form = document.querySelector('form');
 
     let name = ReactDOM.findDOMNode(this.refs.name).value;
+    let title = ReactDOM.findDOMNode(this.refs.title).value;
+    let reciever = ReactDOM.findDOMNode(this.refs.reciever).value;
     let email = ReactDOM.findDOMNode(this.refs.email).value;
     let message = ReactDOM.findDOMNode(this.refs.message).value;
     
     let formdata = new FormData();
     formdata.append('name',name);
+    formdata.append('title',title);
+    formdata.append('reciever',reciever);
     formdata.append('email',email);
     formdata.append('message',message);
 
@@ -53,7 +57,31 @@ class FanMail extends Component {
                 </div>
                 <div className="control-group">
                 <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                    <label><h3>Sähköpostiosoite</h3></label>
+                    <label><h3>Aihe*</h3></label>
+                    <select ref="title" className="form-control" id="reciever" type="text" placeholder="Nimimerkki" required="required" data-validation-required-message="Please enter your name.">
+                      <option value="Faniposti">Faniposti</option>
+                      <option value="Tapahtumat">Tapahtumat</option>
+                      <option value="Yhteydenottopyyntö">Yhteydenottopyyntö</option>
+                    </select>
+                </div>
+                </div>
+                <div className="control-group">
+                <div className="form-group floating-label-form-group controls mb-0 pb-2">
+                    <label><h3>Saaja*</h3></label>
+                    <select ref="reciever" className="form-control" id="reciever" type="text" placeholder="Nimimerkki" required="required" data-validation-required-message="Please enter your name.">
+                      <option value="CST-tiimi">CST-tiimi</option>
+                      <option className="jääprinsessa" value="Jääprinsessa">Jääprinsessa</option>
+                      <option className="lady" value="Lady">Lady</option>
+                      <option className="macho" value="Macho">Macho</option>
+                      <option className="pikkuveli" value="Pikkuveli">Pikkuveli</option>
+                      <option className="rumba" value="Rumba">Rumba</option>
+                      <option className="tonnikala" value="Tonnikala">Tonnikala</option>
+                    </select>
+                </div>
+                </div>
+                <div className="control-group">
+                <div className="form-group floating-label-form-group controls mb-0 pb-2">
+                    <label><h3>Sähköpostiosoite*</h3></label>
                     <input ref="email" className="form-control" id="email" type="email" placeholder="Sähköpostiosoite" data-validation-required-message="Please enter your email address." />
                 </div>
                 </div>
@@ -65,8 +93,7 @@ class FanMail extends Component {
                 </div>
                 <br/>
                 <div>
-                  <h6>* pakollinen kenttä</h6>
-                  <h6>Jos haluat vastauksen esimerkiksi kysymykseesi, kirjoita sähköpostiosoiteesi.</h6>
+                  <h6>*= pakollinen kenttä. Tietoja ei kerätä tai luovuteta kolmansille osapuolille.</h6>
                 </div>
                 <br/>
                 <div className="form-group">
