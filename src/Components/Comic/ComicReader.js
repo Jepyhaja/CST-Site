@@ -9,20 +9,29 @@ const searchUrl = () => {
     return {book, page};
 }
 const nextUrl = (jump) => {
-    return '/comic/'+searchUrl().book+'/page/'+ (parseInt(searchUrl().page,0)+jump)
+    const url = searchUrl();
+    const book = url.book;
+    const page = (parseInt(url.page,0)+jump);
+    return '/comic/'+book+'/page/'+page
 }
 const previousUrl = (jump) => {
-    if(searchUrl().page < 2){
+    const url = searchUrl();
+    const book = url.book;
+    const page = (parseInt(url.page,0)-jump);
+    if(url.page < 2){
         return currentUrl();
     }
-    return '/comic/'+searchUrl().book+'/page/'+ (parseInt(searchUrl().page,0)-jump);
+    return '/comic/'+book+'/page/'+page
 } 
 const currentUrl = () => {
-    const page = parseInt(searchUrl().page,0);
-    const book = searchUrl().book.toString();
+    const url = searchUrl();
+    const page = parseInt(url.page,0);
+    const book = url.book.toString();
     const path = '/comic/'+book+'/page/'+page;
     const source = '/Images/Comic/'+book+'/'+page+'.png';
-    return {path,source}
+    const preload1 = '/Images/Comic/'+book+'/'+(page+1)+'.png';
+    const preload2 = '/Images/Comic/'+book+'/'+(page+2)+'.png';
+    return {path,source,preload1,preload2}
 }
 
 class ComicReader extends Component {
@@ -58,7 +67,8 @@ class ComicReader extends Component {
     }
 
     setButtonVisibility = () => {
-        if(searchUrl().page < 2){
+        const url = searchUrl()
+        if(url.page < 2){
             this.setState({
                 rMid: '',
                 rCor: '',
@@ -67,7 +77,7 @@ class ComicReader extends Component {
             });
             return null;
         }
-        if(searchUrl().page > 74){
+        if(url.page > 74){
             this.setState({
                 rMid: 'none',
                 rCor: 'none',
@@ -76,7 +86,7 @@ class ComicReader extends Component {
             });
             return null;
         }
-        if(searchUrl().page < 4){
+        if(url.page < 4){
             this.setState({
                 rMid: '',
                 rCor: '',
@@ -85,7 +95,7 @@ class ComicReader extends Component {
             });
             return null;
         }
-        if(searchUrl().page > 72){
+        if(url.page > 72){
             this.setState({
                 rMid: '',
                 rCor: 'none',
@@ -109,8 +119,10 @@ class ComicReader extends Component {
     }
 
     render() {
-        const page = searchUrl().page;
-        const book = searchUrl().book;
+        const url = searchUrl();
+        const page = url.page;
+        const book = url.book;
+        const current = currentUrl();
 
         if((book !== 'sak' && book !== 'somebok')||(page <= 0)||(page >= 76)){
             return (
@@ -148,10 +160,10 @@ class ComicReader extends Component {
                                     <Link className={"btn btn-sm btn-secondary m-1 "+this.state.rCor} to={nextUrl(3)} onClick={this.openLoadingScreen}>&gt;&gt;&gt;</Link>
                                 </div>
                             </div>
-                                <Route path={currentUrl().path} 
+                                <Route path={current.path} 
                                     render={
                                         (props) => <PageComponent 
-                                        source={currentUrl().source} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
+                                        source={current.source} page={page} preload1={current.preload1} preload2={current.preload2} status={this.state.loading} loaded={this.closeLoadingScreen}{...props}/> 
                                         }
                                     />
                             <div className="row">
