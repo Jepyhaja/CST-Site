@@ -21,7 +21,7 @@ class DisplayFamilies extends Component {
                 <div className="col"></div>
                 <div className="col-md-4 col-lg-4 pt-3 d-none d-md-block pb-2"><img className="img-fluid" src={"/Images/Yhteiskunta/"+this.props.header+".png"} alt=""/></div>
                 <div className="col"></div>
-                <div className="col-xl-6"><Text text={this.props.text}/></div>
+                <div className="col-xl-6 text-xl-left"><Text text={this.props.text}/></div>
                 <div className="col-1"></div>
             </div>
         </div>

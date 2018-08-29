@@ -22,7 +22,7 @@ class Regals extends Component {
             let Component = [];
             for(let i=0;i<props.data.length;i++){
                 
-                Component.push(<div key={i} className="col-2 col-xl-1"><img className="img-fluid clickable" src={"/Images/Yhteiskunta/"+props.data[i].name+".png"} alt="" onClick={() => swapProps(props.data[i])}/></div>);
+                Component.push(<div key={i} className="col col-xl-1"><img className="img-fluid clickable" src={"/Images/Yhteiskunta/"+props.data[i].name+".png"} alt="" onClick={() => swapProps(props.data[i])}/></div>);
             }
             return Component;
         }
@@ -43,15 +43,15 @@ class Regals extends Component {
             <div className="row pt-3 pb-5">
                 <div className="col"></div>
                 <div className="col-md-6">
-                <iframe title="aateliset" width="560" height="315" src="https://www.youtube.com/embed/LmpEvRY6G-I" frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
+                <iframe title="aateliset" src="https://www.youtube.com/embed/LmpEvRY6G-I" frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
                 <p className="hint">Lue alta lisää eri suvuista</p>
                 </div>
                 <div className="col"></div>
             </div>
             <div className="row">
-                <div className="col"></div>
+                <div className="col d-none d-md-block"></div>
                 <Images data={data.Family} swapProps={swapProps}/>
-                <div className="col"></div>
+                <div className="col d-none d-md-block"></div>
             </div>
             <DisplayFamilies header={this.state.header} text={this.state.text}/>
         </div>

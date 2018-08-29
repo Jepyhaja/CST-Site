@@ -29,12 +29,10 @@ class FanMail extends Component {
 
     axios.post('/mail/contact_me.php',formdata)
     .then(function(response){
-      console.log(response.data);
       form.reset();
       return response.data
     })
     .catch(function(error){
-      console.log(error);
       form.reset();
       return error
     })

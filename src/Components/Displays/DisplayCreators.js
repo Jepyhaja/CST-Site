@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 class DisplayCreators extends Component {
     render() {
-        console.log(this.props.data)
       return (
         <div>
             <div className="row pt-4">

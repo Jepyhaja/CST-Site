@@ -1,3 +1,10 @@
+.preloader{
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+    position: absolute;
+    top:-100;
+}
 .page-footer{
     background-color: #212121
 }
@@ -140,6 +147,11 @@ h4{
 .direction:hover{
     color: #84b6b6 !important;
 }
+iframe{
+    max-width: 100% !important;
+    width: 300px !important;
+    height: 165px !important;
+}
 @media only screen and (min-width: 560px) {
     .min-height{
         min-height: 80vh;
@@ -200,6 +212,11 @@ h4{
         background-size: 120vw;
         background-position-y: 20vh;
         background-position-x: 30vw;
+    }
+    iframe{
+        max-width: 100% !important;
+        width: 560px !important;
+        height: 315px !important;
     }
 }
 @media only screen and (min-width: 767px) {

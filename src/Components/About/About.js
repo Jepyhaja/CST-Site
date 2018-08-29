@@ -3,8 +3,6 @@ import DisplayCreators from '../Displays/DisplayCreators';
 
 const data = require('./AboutText.json');
 
-console.log(data.Creators[0]);
-
 class About extends Component {
   state = {
     a:'',
@@ -93,8 +91,8 @@ class About extends Component {
               </div>
           </div>
           <div className="container-fluid bg-color-darkergray pt-5 pb-5">
-            <div className="row pt-5">
-                <div className="col-12"><h2>Tekijät</h2></div>
+            <div className="row">
+                <div className="col-12 pb-2"><h2>Tekijät</h2></div>
             </div>
             <div className="row pt-3">
               <div className="col d-none d-lg-block"></div>

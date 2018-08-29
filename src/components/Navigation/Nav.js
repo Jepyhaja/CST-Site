@@ -5,20 +5,6 @@ import {
   } from 'react-router-dom';
 import NavDropdown from './NavDropDown';
 
-  const NavItem = props => {
-    const pageURI = window.location.hash+window.location.search
-    const liClassName = (props.path === pageURI) ? "nav-item active" : "nav-item";
-    const path = props.disabled ? pageURI : props.path
-    const aClassName = props.disabled ? "nav-link disabled" : "nav-link";
-    return (
-      <li className={liClassName}>
-        <Link to={path} className={aClassName}>
-          {props.name}
-          {(props.path === pageURI) ? (<span className="sr-only">(current)</span>) : ''}
-        </Link>
-      </li>
-    );
-  }
 class Nav extends Component {
     state = {
       dTogl: '',
@@ -73,7 +59,7 @@ class Nav extends Component {
                         </NavDropdown>
                         <NavLink to="/mail" className="nav-link">Posti</NavLink>
                         <NavLink to="/cst" className="nav-link">CST</NavLink>
-                        <NavItem name="Medialle" path="/media" />
+                        <NavLink to="/media" className="nav-link">Medialle</NavLink>
                     </ul>
                 </div>
             </div>

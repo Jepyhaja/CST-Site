@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 const Content = props =>{
-    console.log(props.img);
     let component = [];
     if(props.img.img1){
         component.push(<img className="floatL img" src={"/Images/"+props.location+"/"+props.img.img1} alt={props.img.img1}/>)
