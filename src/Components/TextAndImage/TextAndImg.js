@@ -24,8 +24,8 @@ const HeadAndParagraphs = props =>{
 
 class TextAndImg extends Component {
     scrollToTop = () =>{
-        var doc = document.documentElement;
-        var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop);
+        let doc = document.documentElement;
+        let top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop);
         if (top > 0) {
             window.scrollTo(0, top - 250)
             setTimeout(this.scrollToTop, 1)

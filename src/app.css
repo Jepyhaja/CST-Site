@@ -148,11 +148,14 @@ h4{
     color: #84b6b6 !important;
 }
 iframe{
-    max-width: 100% !important;
     width: 300px !important;
     height: 165px !important;
 }
 @media only screen and (min-width: 560px) {
+    iframe{
+        width: 560px !important;
+        height: 315px !important;
+    }
     .min-height{
         min-height: 80vh;
     }
@@ -424,5 +427,9 @@ iframe{
         background-size: 50vw;
         background-position-y: 10vh;
         background-position-x: 65vw;
+    }
+    iframe{
+        width: 560px !important;
+        height: 315px !important;
     }
 }

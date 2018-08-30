@@ -26,7 +26,12 @@ class Comic extends Component {
     render() {
       const pageURI = window.location.hash+window.location.search;
       const checker = pageURI.split("/");
-      if(checker[3] !== 'page'){
+      if(checker[3] === "page"){
+        return(
+          <ComicReader/>
+        );
+      }
+      else{
         return(
           <div className="bg-img-comic">
           <div className="container-fluid min-height pt-2">
@@ -59,11 +64,6 @@ class Comic extends Component {
                 />
             </div>
             </div>
-        );
-      }
-      if(checker[3] === "page"){
-        return(
-          <ComicReader/>
         );
       }
     }

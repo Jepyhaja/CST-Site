@@ -32,7 +32,7 @@ class Globinet extends Component {
         window.scrollTo(0,0);
       }
     getContinents = (continent) => {
-        var ContinentArray = Data.Continents;
+        let ContinentArray = Data.Continents;
         for(let i=0;i<ContinentArray.length; i++){
           if(ContinentArray[i].id === continent){
             return ContinentArray[i]  

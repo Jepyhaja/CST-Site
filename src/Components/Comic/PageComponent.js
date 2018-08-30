@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 class PageComponent extends Component {
 
     render() {
-        var status = 'loader';
+        let status = 'loader';
         if(this.props.status === false){
             status = 'none'
         }else{

@@ -42,7 +42,7 @@ class Regals extends Component {
             </div>
             <div className="row pt-3 pb-5">
                 <div className="col"></div>
-                <div className="col-md-6">
+                <div className="col-12 col-md-12">
                 <iframe title="aateliset" src="https://www.youtube.com/embed/LmpEvRY6G-I" frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
                 <p className="hint">Lue alta lisää eri suvuista</p>
                 </div>

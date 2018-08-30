@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
 class Media extends Component {
+    componentDidMount(){
+        window.scrollTo(0,0);
+      }
     render() {
       return (
         <div className="bg-img-media">  

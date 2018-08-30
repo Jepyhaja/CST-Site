@@ -1,4 +1,5 @@
 .comicdiv{
+    padding: 1%;
     position: relative;
     z-index: 1;
 }
@@ -19,38 +20,14 @@
     position: relative;
     top: 50%
 }
+.pagenumber{
+    padding-top: 7px;
+}
 
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
-/*
-.r-corner{
-    float: right !important;
-    z-index: 2;
-}
-.r-middle{
-    position: absolute;
-    right: 35%;
-    z-index: 2;
-}
-.l-corner{
-    float: left !important;
-    z-index: 2;
-}
-.l-middle{
-    position: absolute;
-    left: 35%;
-    z-index: 2;
-}
-.pagenumber{
-    display: inline-block;
-    font-size: 1.8em;
-    position: absolute;
-    left: 47.5%;
-    z-index: 2;
-}
-*/
 .comicpage{
     margin:0% 0 0% 0;
     -moz-user-select: -moz-none;

@@ -19,7 +19,7 @@ const CharacterDetails = props =>{
 
 class Characters extends Component {
   getTxt = (name) => {
-    var CharArray = Data.Chars;
+    let CharArray = Data.Chars;
     for(let i=0;i<CharArray.length; i++){
       if(CharArray[i].id === name){
         return CharArray[i]  

@@ -25,9 +25,9 @@ class BookChapters extends Component {
               <div className="col"></div>
               <Chapter pages={this.props.pages[0]} book={this.props.book} names={this.props.names[0]}/>
               <Chapter pages={this.props.pages[1]} book={this.props.book} names={this.props.names[1]}/>
-              <Chapter pages={this.props.pages[2]} book={this.props.book}/>
-              <Chapter pages={this.props.pages[3]} book={this.props.book}/>
-              <Chapter pages={this.props.pages[4]} book={this.props.book}/>
+              <Chapter pages={this.props.pages[2]} book={this.props.book} names={this.props.names[2]}/>
+              <Chapter pages={this.props.pages[3]} book={this.props.book} names={this.props.names[3]}/>
+              <Chapter pages={this.props.pages[4]} book={this.props.book} names={this.props.names[4]}/>
               <div className="col"></div>
             </div>
           </div>

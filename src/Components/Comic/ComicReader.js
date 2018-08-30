@@ -43,8 +43,8 @@ class ComicReader extends Component {
         lCor: ''
     }
     scrollToTop = () =>{
-        var doc = document.documentElement;
-        var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop);
+        let doc = document.documentElement;
+        let top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop);
         if (top > 0) {
             window.scrollTo(0, top - 50)
             setTimeout(this.scrollToTop, 2)
@@ -151,7 +151,7 @@ class ComicReader extends Component {
                                     <Link className={"btn btn-sm btn-secondary m-1 "+this.state.lMid} to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
                                 </div>
                                 <div className="col">
-                                    <p className="pagenumber">{page}</p>
+                                    <h4 className="pagenumber">{page}</h4>
                                 </div>
                                 <div className="col">
                                     <Link className={"btn btn-sm btn-secondary m-1 "+this.state.rMid} to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
@@ -174,7 +174,7 @@ class ComicReader extends Component {
                                     <Link className={"btn btn-sm btn-secondary m-1 "+this.state.lMid} to={previousUrl(1)} onClick={this.openLoadingScreen}>&lt;</Link>
                                 </div>
                                 <div className="col">
-                                    <p className="pagenumber">{page}</p>
+                                    <h4 className="pagenumber">{page}</h4>
                                 </div>
                                 <div className="col">
                                     <Link className={"btn btn-sm btn-secondary m-1 "+this.state.rMid} to={nextUrl(1)} onClick={this.openLoadingScreen}>&gt;</Link>
